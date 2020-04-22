@@ -1,0 +1,4076 @@
+# ds-sim server 6-Mar, 2020 @ MQ
+# Server-side simulator started with './ds-server -c ./configs/config_simple4.xml -v brief'
+# Waiting for connection to port 50000 of IP address 127.0.0.1
+RCVD HELO
+SENT OK
+RCVD AUTH lius
+# Welcome  lius!
+# The system information can be read from 'system.xml'
+SENT OK
+RCVD REDY
+SENT JOBN 52 0 778 15 18400 41200
+RCVD SCHD 0 xlarge 0
+t:         52 job     0 (waiting) on # 0 of server xlarge (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 101 1 1 3 2300 2000
+RCVD SCHD 1 xlarge 0
+t:        101 job     1 (waiting) on # 0 of server xlarge (booting) SCHEDULED
+SENT OK
+RCVD REDY
+t:        112 job     0 on # 0 of server xlarge RUNNING
+SENT JOBN 126 2 3 9 6900 8500
+RCVD SCHD 2 xlarge 0
+t:        126 job     2 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 160 3 36 16 18400 49000
+RCVD SCHD 3 xlarge 0
+t:        160 job     3 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 186 4 3 7 5700 4000
+RCVD SCHD 4 xlarge 0
+t:        186 job     4 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 221 5 27 16 2500 54400
+RCVD SCHD 5 xlarge 0
+t:        221 job     5 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 248 6 378 5 2700 3900
+RCVD SCHD 6 xlarge 0
+t:        248 job     6 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 258 7 9688 7 5000 2800
+RCVD SCHD 7 xlarge 0
+t:        258 job     7 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 269 8 22092 9 5700 5200
+RCVD SCHD 8 xlarge 0
+t:        269 job     8 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 275 9 22980 15 16700 21700
+RCVD SCHD 9 xlarge 0
+t:        275 job     9 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 276 10 7554 6 3600 6000
+RCVD SCHD 10 xlarge 0
+t:        276 job    10 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 281 11 522 14 3000 35500
+RCVD SCHD 11 xlarge 0
+t:        281 job    11 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 282 12 46 1 900 1800
+RCVD SCHD 12 xlarge 0
+t:        282 job    12 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 283 13 187 16 19700 21100
+RCVD SCHD 13 xlarge 0
+t:        283 job    13 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 287 14 72 13 5200 35400
+RCVD SCHD 14 xlarge 0
+t:        287 job    14 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 291 15 80 1 800 1800
+RCVD SCHD 15 xlarge 0
+t:        291 job    15 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 300 16 63 7 3700 11200
+RCVD SCHD 16 xlarge 0
+t:        300 job    16 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 304 17 17 10 19700 20000
+RCVD SCHD 17 xlarge 0
+t:        304 job    17 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 308 18 29 5 5000 8100
+RCVD SCHD 18 xlarge 0
+t:        308 job    18 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 310 19 856 1 200 1400
+RCVD SCHD 19 xlarge 0
+t:        310 job    19 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 313 20 26 4 3100 3900
+RCVD SCHD 20 xlarge 0
+t:        313 job    20 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 315 21 1 6 1600 7500
+RCVD SCHD 21 xlarge 0
+t:        315 job    21 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 318 22 895 16 28500 56900
+RCVD SCHD 22 xlarge 0
+t:        318 job    22 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 321 23 275 11 21000 13100
+RCVD SCHD 23 xlarge 0
+t:        321 job    23 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 323 24 4 1 600 100
+RCVD SCHD 24 xlarge 0
+t:        323 job    24 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 330 25 169 3 600 5800
+RCVD SCHD 25 xlarge 0
+t:        330 job    25 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 334 26 1 4 800 900
+RCVD SCHD 26 xlarge 0
+t:        334 job    26 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 339 27 3459 11 4600 40100
+RCVD SCHD 27 xlarge 0
+t:        339 job    27 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 343 28 18 7 2500 13400
+RCVD SCHD 28 xlarge 0
+t:        343 job    28 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 347 29 3 4 1400 1800
+RCVD SCHD 29 xlarge 0
+t:        347 job    29 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 349 30 11 1 800 800
+RCVD SCHD 30 xlarge 0
+t:        349 job    30 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 354 31 118 7 2400 3000
+RCVD SCHD 31 xlarge 0
+t:        354 job    31 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 356 32 30412 10 4100 22600
+RCVD SCHD 32 xlarge 0
+t:        356 job    32 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 359 33 19674 5 4700 4000
+RCVD SCHD 33 xlarge 0
+t:        359 job    33 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 360 34 42 14 25000 21400
+RCVD SCHD 34 xlarge 0
+t:        360 job    34 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 361 35 37 1 100 1200
+RCVD SCHD 35 xlarge 0
+t:        361 job    35 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 371 36 13382 1 800 500
+RCVD SCHD 36 xlarge 0
+t:        371 job    36 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 383 37 302 1 600 400
+RCVD SCHD 37 xlarge 0
+t:        383 job    37 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 384 38 1994 11 1500 40900
+RCVD SCHD 38 xlarge 0
+t:        384 job    38 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 396 39 26 1 400 2000
+RCVD SCHD 39 xlarge 0
+t:        396 job    39 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 409 40 278 1 600 1500
+RCVD SCHD 40 xlarge 0
+t:        409 job    40 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 441 41 534 1 1000 1100
+RCVD SCHD 41 xlarge 0
+t:        441 job    41 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 459 42 19 1 1000 1500
+RCVD SCHD 42 xlarge 0
+t:        459 job    42 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 497 43 1171 16 17600 61300
+RCVD SCHD 43 xlarge 0
+t:        497 job    43 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 501 44 3 2 300 800
+RCVD SCHD 44 xlarge 0
+t:        501 job    44 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 511 45 66 2 1600 800
+RCVD SCHD 45 xlarge 0
+t:        511 job    45 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 544 46 8328 1 600 300
+RCVD SCHD 46 xlarge 0
+t:        544 job    46 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 605 47 29 2 1200 600
+RCVD SCHD 47 xlarge 0
+t:        605 job    47 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 666 48 35 1 300 1100
+RCVD SCHD 48 xlarge 0
+t:        666 job    48 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 701 49 8 1 800 1900
+RCVD SCHD 49 xlarge 0
+t:        701 job    49 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:        737 job     0 on # 0 of server xlarge COMPLETED
+t:        737 job     1 on # 0 of server xlarge RUNNING
+t:        737 job     2 on # 0 of server xlarge RUNNING
+t:        745 job     2 on # 0 of server xlarge COMPLETED
+t:        762 job     1 on # 0 of server xlarge COMPLETED
+t:        762 job     3 on # 0 of server xlarge RUNNING
+SENT JOBN 778 50 17 1 500 200
+RCVD SCHD 50 xlarge 0
+t:        778 job    50 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:        781 job     3 on # 0 of server xlarge COMPLETED
+t:        781 job     4 on # 0 of server xlarge RUNNING
+t:        784 job     4 on # 0 of server xlarge COMPLETED
+t:        784 job     5 on # 0 of server xlarge RUNNING
+t:        811 job     5 on # 0 of server xlarge COMPLETED
+t:        811 job     6 on # 0 of server xlarge RUNNING
+t:        811 job     7 on # 0 of server xlarge RUNNING
+SENT JOBN 845 51 4 1 800 1600
+RCVD SCHD 51 xlarge 0
+t:        845 job    51 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 908 52 181 1 400 500
+RCVD SCHD 52 xlarge 0
+t:        908 job    52 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 948 53 5 1 700 1100
+RCVD SCHD 53 xlarge 0
+t:        948 job    53 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 999 54 21 1 600 1000
+RCVD SCHD 54 xlarge 0
+t:        999 job    54 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1036 55 219 1 700 1900
+RCVD SCHD 55 xlarge 0
+t:       1036 job    55 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1055 56 12 2 1200 3900
+RCVD SCHD 56 xlarge 0
+t:       1055 job    56 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1134 57 23 2 1400 4100
+RCVD SCHD 57 xlarge 0
+t:       1134 job    57 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1169 58 20 1 400 1700
+RCVD SCHD 58 xlarge 0
+t:       1169 job    58 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1231 59 40 1 200 400
+RCVD SCHD 59 xlarge 0
+t:       1231 job    59 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1249 60 859 1 1000 1200
+RCVD SCHD 60 xlarge 0
+t:       1249 job    60 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1260 61 16 2 1400 3900
+RCVD SCHD 61 xlarge 0
+t:       1260 job    61 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:       1269 job     6 on # 0 of server xlarge COMPLETED
+t:       1269 job     8 on # 0 of server xlarge RUNNING
+SENT JOBN 1359 62 141 1 900 1200
+RCVD SCHD 62 xlarge 0
+t:       1359 job    62 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1411 63 4 1 400 1300
+RCVD SCHD 63 xlarge 0
+t:       1411 job    63 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1428 64 88 1 1000 1500
+RCVD SCHD 64 xlarge 0
+t:       1428 job    64 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1443 65 5 2 1800 1600
+RCVD SCHD 65 xlarge 0
+t:       1443 job    65 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1512 66 3149 12 20100 14600
+RCVD SCHD 66 xlarge 0
+t:       1512 job    66 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1528 67 2 1 800 100
+RCVD SCHD 67 xlarge 0
+t:       1528 job    67 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1673 68 294 1 1000 400
+RCVD SCHD 68 xlarge 0
+t:       1673 job    68 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1701 69 50 1 500 1300
+RCVD SCHD 69 xlarge 0
+t:       1701 job    69 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1781 70 2 1 900 1600
+RCVD SCHD 70 xlarge 0
+t:       1781 job    70 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1908 71 215 1 600 1000
+RCVD SCHD 71 xlarge 0
+t:       1908 job    71 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 1968 72 19 1 900 1100
+RCVD SCHD 72 xlarge 0
+t:       1968 job    72 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2100 73 241 2 1400 700
+RCVD SCHD 73 xlarge 0
+t:       2100 job    73 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2280 74 29 1 400 700
+RCVD SCHD 74 xlarge 0
+t:       2280 job    74 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2355 75 26 1 900 800
+RCVD SCHD 75 xlarge 0
+t:       2355 job    75 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2531 76 3 1 100 1200
+RCVD SCHD 76 xlarge 0
+t:       2531 job    76 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2719 77 209 1 900 1900
+RCVD SCHD 77 xlarge 0
+t:       2719 job    77 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 2862 78 5 1 700 500
+RCVD SCHD 78 xlarge 0
+t:       2862 job    78 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3063 79 11 1 200 2000
+RCVD SCHD 79 xlarge 0
+t:       3063 job    79 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3183 80 115 1 100 100
+RCVD SCHD 80 xlarge 0
+t:       3183 job    80 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3372 81 84 1 1000 1500
+RCVD SCHD 81 xlarge 0
+t:       3372 job    81 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3499 82 11 1 1000 1200
+RCVD SCHD 82 xlarge 0
+t:       3499 job    82 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3563 83 639 1 500 800
+RCVD SCHD 83 xlarge 0
+t:       3563 job    83 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3639 84 513 1 200 100
+RCVD SCHD 84 xlarge 0
+t:       3639 job    84 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3724 85 324 1 300 1100
+RCVD SCHD 85 xlarge 0
+t:       3724 job    85 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3843 86 44 1 1000 1900
+RCVD SCHD 86 xlarge 0
+t:       3843 job    86 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3860 87 123 2 1600 2900
+RCVD SCHD 87 xlarge 0
+t:       3860 job    87 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3921 88 55 1 700 700
+RCVD SCHD 88 xlarge 0
+t:       3921 job    88 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 3987 89 12 1 1000 2000
+RCVD SCHD 89 xlarge 0
+t:       3987 job    89 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 4207 90 1070 1 1000 800
+RCVD SCHD 90 xlarge 0
+t:       4207 job    90 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 4342 91 33 1 700 1000
+RCVD SCHD 91 xlarge 0
+t:       4342 job    91 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 4560 92 346 1 1000 1200
+RCVD SCHD 92 xlarge 0
+t:       4560 job    92 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 4843 93 5968 11 12100 2500
+RCVD SCHD 93 xlarge 0
+t:       4843 job    93 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 4929 94 605 1 600 700
+RCVD SCHD 94 xlarge 0
+t:       4929 job    94 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5005 95 344 2 2000 3200
+RCVD SCHD 95 xlarge 0
+t:       5005 job    95 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5188 96 10039 1 100 400
+RCVD SCHD 96 xlarge 0
+t:       5188 job    96 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5443 97 268 2 1600 200
+RCVD SCHD 97 xlarge 0
+t:       5443 job    97 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5451 98 25 1 400 1400
+RCVD SCHD 98 xlarge 0
+t:       5451 job    98 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5694 99 8 1 600 1900
+RCVD SCHD 99 xlarge 0
+t:       5694 job    99 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5818 100 150 1 800 900
+RCVD SCHD 100 xlarge 0
+t:       5818 job   100 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 5858 101 227 2 600 3200
+RCVD SCHD 101 xlarge 0
+t:       5858 job   101 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 6015 102 19 1 600 700
+RCVD SCHD 102 xlarge 0
+t:       6015 job   102 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 6341 103 37790 1 600 900
+RCVD SCHD 103 xlarge 0
+t:       6341 job   103 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 6637 104 386 1 900 300
+RCVD SCHD 104 xlarge 0
+t:       6637 job   104 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 6687 105 7 1 600 1000
+RCVD SCHD 105 xlarge 0
+t:       6687 job   105 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 6803 106 27 2 1200 1300
+RCVD SCHD 106 xlarge 0
+t:       6803 job   106 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 7114 107 70 1 900 1700
+RCVD SCHD 107 xlarge 0
+t:       7114 job   107 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 7318 108 87 2 2000 700
+RCVD SCHD 108 xlarge 0
+t:       7318 job   108 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 7437 109 60904 14 25900 16600
+RCVD SCHD 109 xlarge 0
+t:       7437 job   109 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 7662 110 179 1 200 1100
+RCVD SCHD 110 xlarge 0
+t:       7662 job   110 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 8025 111 244 2 300 1200
+RCVD SCHD 111 xlarge 0
+t:       8025 job   111 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 8340 112 94 2 800 3700
+RCVD SCHD 112 xlarge 0
+t:       8340 job   112 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 8440 113 13 1 800 1200
+RCVD SCHD 113 xlarge 0
+t:       8440 job   113 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 8722 114 31329 4 1900 400
+RCVD SCHD 114 xlarge 0
+t:       8722 job   114 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 8763 115 5 1 600 1200
+RCVD SCHD 115 xlarge 0
+t:       8763 job   115 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 8915 116 100 1 100 300
+RCVD SCHD 116 xlarge 0
+t:       8915 job   116 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9097 117 52 1 100 700
+RCVD SCHD 117 xlarge 0
+t:       9097 job   117 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9423 118 6436 3 2200 5400
+RCVD SCHD 118 xlarge 0
+t:       9423 job   118 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9425 119 18380 13 13000 12700
+RCVD SCHD 119 xlarge 0
+t:       9425 job   119 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9704 120 34 2 900 1100
+RCVD SCHD 120 xlarge 0
+t:       9704 job   120 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9728 121 773 1 100 900
+RCVD SCHD 121 xlarge 0
+t:       9728 job   121 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9915 122 22 1 100 1500
+RCVD SCHD 122 xlarge 0
+t:       9915 job   122 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9972 123 4 1 400 200
+RCVD SCHD 123 xlarge 0
+t:       9972 job   123 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 9987 124 23 1 800 2000
+RCVD SCHD 124 xlarge 0
+t:       9987 job   124 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 10386 125 16 1 100 800
+RCVD SCHD 125 xlarge 0
+t:      10386 job   125 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 10474 126 935 1 900 600
+RCVD SCHD 126 xlarge 0
+t:      10474 job   126 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 10706 127 499 7 4600 5600
+RCVD SCHD 127 xlarge 0
+t:      10706 job   127 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      10745 job     7 on # 0 of server xlarge COMPLETED
+SENT JOBN 11119 128 107 2 1000 3300
+RCVD SCHD 128 xlarge 0
+t:      11119 job   128 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11361 129 45 1 300 100
+RCVD SCHD 129 xlarge 0
+t:      11361 job   129 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11667 130 13877 1 100 700
+RCVD SCHD 130 xlarge 0
+t:      11667 job   130 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11679 131 13 1 400 2000
+RCVD SCHD 131 xlarge 0
+t:      11679 job   131 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 11733 132 2 1 1000 300
+RCVD SCHD 132 xlarge 0
+t:      11733 job   132 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 12028 133 30 2 1600 1300
+RCVD SCHD 133 xlarge 0
+t:      12028 job   133 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 12251 134 437 1 1000 900
+RCVD SCHD 134 xlarge 0
+t:      12251 job   134 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 12632 135 37 1 900 700
+RCVD SCHD 135 xlarge 0
+t:      12632 job   135 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 12921 136 152 1 800 300
+RCVD SCHD 136 xlarge 0
+t:      12921 job   136 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 12990 137 45861 4 1200 3700
+RCVD SCHD 137 xlarge 0
+t:      12990 job   137 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 13369 138 196 2 1900 1900
+RCVD SCHD 138 xlarge 0
+t:      13369 job   138 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 13727 139 11 1 1000 200
+RCVD SCHD 139 xlarge 0
+t:      13727 job   139 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 14239 140 87 1 900 500
+RCVD SCHD 140 xlarge 0
+t:      14239 job   140 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 14318 141 68 1 400 200
+RCVD SCHD 141 xlarge 0
+t:      14318 job   141 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 14514 142 1 1 300 1900
+RCVD SCHD 142 xlarge 0
+t:      14514 job   142 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 14642 143 213 2 1500 3400
+RCVD SCHD 143 xlarge 0
+t:      14642 job   143 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 14683 144 28 1 800 1800
+RCVD SCHD 144 xlarge 0
+t:      14683 job   144 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 15114 145 42 1 500 100
+RCVD SCHD 145 xlarge 0
+t:      15114 job   145 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 15355 146 2 2 400 1600
+RCVD SCHD 146 xlarge 0
+t:      15355 job   146 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 15606 147 15518 4 1200 7800
+RCVD SCHD 147 xlarge 0
+t:      15606 job   147 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 16035 148 7 1 300 100
+RCVD SCHD 148 xlarge 0
+t:      16035 job   148 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 16513 149 569 1 600 1100
+RCVD SCHD 149 xlarge 0
+t:      16513 job   149 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 16956 150 889 1 800 800
+RCVD SCHD 150 xlarge 0
+t:      16956 job   150 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 17499 151 61 1 700 1800
+RCVD SCHD 151 xlarge 0
+t:      17499 job   151 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 17882 152 28 1 300 1500
+RCVD SCHD 152 xlarge 0
+t:      17882 job   152 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 17972 153 14708 1 800 500
+RCVD SCHD 153 xlarge 0
+t:      17972 job   153 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 18459 154 1044 1 400 100
+RCVD SCHD 154 xlarge 0
+t:      18459 job   154 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 18686 155 9 1 400 500
+RCVD SCHD 155 xlarge 0
+t:      18686 job   155 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 19131 156 22 1 700 1100
+RCVD SCHD 156 xlarge 0
+t:      19131 job   156 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 19152 157 168 1 600 2000
+RCVD SCHD 157 xlarge 0
+t:      19152 job   157 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 19175 158 4 1 1000 2000
+RCVD SCHD 158 xlarge 0
+t:      19175 job   158 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 19780 159 532 1 1000 600
+RCVD SCHD 159 xlarge 0
+t:      19780 job   159 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 20194 160 194 1 100 400
+RCVD SCHD 160 xlarge 0
+t:      20194 job   160 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 20327 161 37671 3 2900 1600
+RCVD SCHD 161 xlarge 0
+t:      20327 job   161 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 20536 162 25 1 800 1900
+RCVD SCHD 162 xlarge 0
+t:      20536 job   162 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 21160 163 475 2 1000 3200
+RCVD SCHD 163 xlarge 0
+t:      21160 job   163 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 21191 164 46 2 1500 1000
+RCVD SCHD 164 xlarge 0
+t:      21191 job   164 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 21570 165 23572 7 7300 1200
+RCVD SCHD 165 xlarge 0
+t:      21570 job   165 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 21825 166 1 1 800 2000
+RCVD SCHD 166 xlarge 0
+t:      21825 job   166 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 22019 167 2 1 800 1100
+RCVD SCHD 167 xlarge 0
+t:      22019 job   167 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 22213 168 39 2 1900 3200
+RCVD SCHD 168 xlarge 0
+t:      22213 job   168 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 22600 169 23 2 600 300
+RCVD SCHD 169 xlarge 0
+t:      22600 job   169 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 23210 170 2 1 600 1200
+RCVD SCHD 170 xlarge 0
+t:      23210 job   170 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 23811 171 7 1 900 1500
+RCVD SCHD 171 xlarge 0
+t:      23811 job   171 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 24393 172 69 1 700 1400
+RCVD SCHD 172 xlarge 0
+t:      24393 job   172 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 24789 173 12652 10 15000 38600
+RCVD SCHD 173 xlarge 0
+t:      24789 job   173 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 24842 174 1022 1 500 700
+RCVD SCHD 174 xlarge 0
+t:      24842 job   174 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 24904 175 32028 6 3600 5200
+RCVD SCHD 175 xlarge 0
+t:      24904 job   175 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 25606 176 50 1 700 500
+RCVD SCHD 176 xlarge 0
+t:      25606 job   176 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 26095 177 921 1 400 1500
+RCVD SCHD 177 xlarge 0
+t:      26095 job   177 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 26667 178 133 1 300 1600
+RCVD SCHD 178 xlarge 0
+t:      26667 job   178 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 26946 179 29 1 900 300
+RCVD SCHD 179 xlarge 0
+t:      26946 job   179 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 27049 180 11 1 600 1900
+RCVD SCHD 180 xlarge 0
+t:      27049 job   180 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 27303 181 101 2 1800 700
+RCVD SCHD 181 xlarge 0
+t:      27303 job   181 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 27932 182 18 1 900 300
+RCVD SCHD 182 xlarge 0
+t:      27932 job   182 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 28250 183 36 1 100 1900
+RCVD SCHD 183 xlarge 0
+t:      28250 job   183 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 28593 184 397 1 200 1500
+RCVD SCHD 184 xlarge 0
+t:      28593 job   184 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 28817 185 3 1 100 1800
+RCVD SCHD 185 xlarge 0
+t:      28817 job   185 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 28919 186 9 1 400 1300
+RCVD SCHD 186 xlarge 0
+t:      28919 job   186 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 29168 187 25 1 200 1100
+RCVD SCHD 187 xlarge 0
+t:      29168 job   187 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 29540 188 5 2 2000 4100
+RCVD SCHD 188 xlarge 0
+t:      29540 job   188 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 29800 189 45 1 700 1700
+RCVD SCHD 189 xlarge 0
+t:      29800 job   189 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 30369 190 1206 3 600 1500
+RCVD SCHD 190 xlarge 0
+t:      30369 job   190 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 30640 191 6 12 18300 48400
+RCVD SCHD 191 xlarge 0
+t:      30640 job   191 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 30679 192 5106 16 31800 7700
+RCVD SCHD 192 xlarge 0
+t:      30679 job   192 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 31022 193 25 10 3500 3300
+RCVD SCHD 193 xlarge 0
+t:      31022 job   193 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      31309 job     8 on # 0 of server xlarge COMPLETED
+t:      31309 job     9 on # 0 of server xlarge RUNNING
+SENT JOBN 31639 194 4 14 24900 11300
+RCVD SCHD 194 xlarge 0
+t:      31639 job   194 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 32074 195 4 5 2300 3100
+RCVD SCHD 195 xlarge 0
+t:      32074 job   195 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 32652 196 933 5 4000 1800
+RCVD SCHD 196 xlarge 0
+t:      32652 job   196 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 32722 197 4277 13 13200 31400
+RCVD SCHD 197 xlarge 0
+t:      32722 job   197 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 33460 198 754 7 3100 3400
+RCVD SCHD 198 xlarge 0
+t:      33460 job   198 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 33563 199 252 6 4800 9400
+RCVD SCHD 199 xlarge 0
+t:      33563 job   199 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 33918 200 3 2 300 2600
+RCVD SCHD 200 xlarge 0
+t:      33918 job   200 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 34044 201 5 4 900 2100
+RCVD SCHD 201 xlarge 0
+t:      34044 job   201 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 34120 202 32 11 21200 5200
+RCVD SCHD 202 xlarge 0
+t:      34120 job   202 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 34307 203 163 8 3400 13200
+RCVD SCHD 203 xlarge 0
+t:      34307 job   203 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 34959 204 577 4 2200 1300
+RCVD SCHD 204 xlarge 0
+t:      34959 job   204 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 35445 205 4 2 500 3500
+RCVD SCHD 205 xlarge 0
+t:      35445 job   205 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 35648 206 12774 13 14200 3400
+RCVD SCHD 206 xlarge 0
+t:      35648 job   206 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 36261 207 34 6 4500 1500
+RCVD SCHD 207 xlarge 0
+t:      36261 job   207 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 36918 208 1281 11 2300 2700
+RCVD SCHD 208 xlarge 0
+t:      36918 job   208 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 36976 209 16 11 6500 23400
+RCVD SCHD 209 xlarge 0
+t:      36976 job   209 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 37273 210 9 15 19700 8700
+RCVD SCHD 210 xlarge 0
+t:      37273 job   210 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 37496 211 5 8 6300 4200
+RCVD SCHD 211 xlarge 0
+t:      37496 job   211 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 38016 212 143 11 22500 39900
+RCVD SCHD 212 xlarge 0
+t:      38016 job   212 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 38093 213 40317 4 700 5400
+RCVD SCHD 213 xlarge 0
+t:      38093 job   213 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 38635 214 63 10 9900 17600
+RCVD SCHD 214 xlarge 0
+t:      38635 job   214 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 39006 215 7 10 16200 8400
+RCVD SCHD 215 xlarge 0
+t:      39006 job   215 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 39294 216 28 8 7400 2500
+RCVD SCHD 216 xlarge 0
+t:      39294 job   216 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 39806 217 57 3 1000 3000
+RCVD SCHD 217 xlarge 0
+t:      39806 job   217 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 39858 218 9 2 2100 3500
+RCVD SCHD 218 xlarge 0
+t:      39858 job   218 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 39963 219 41938 4 1900 7500
+RCVD SCHD 219 xlarge 0
+t:      39963 job   219 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 40196 220 127 15 26200 13000
+RCVD SCHD 220 xlarge 0
+t:      40196 job   220 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 40464 221 13 10 15300 35900
+RCVD SCHD 221 xlarge 0
+t:      40464 job   221 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 40746 222 235 10 7100 1000
+RCVD SCHD 222 xlarge 0
+t:      40746 job   222 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 41354 223 323 16 9500 7700
+RCVD SCHD 223 xlarge 0
+t:      41354 job   223 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 41471 224 150 15 19700 22400
+RCVD SCHD 224 xlarge 0
+t:      41471 job   224 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 41717 225 16 12 5700 8100
+RCVD SCHD 225 xlarge 0
+t:      41717 job   225 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 41789 226 16205 9 1400 8700
+RCVD SCHD 226 xlarge 0
+t:      41789 job   226 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 41795 227 25 7 7100 1600
+RCVD SCHD 227 xlarge 0
+t:      41795 job   227 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 41938 228 44 3 2000 3000
+RCVD SCHD 228 xlarge 0
+t:      41938 job   228 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 42384 229 1 7 2800 14100
+RCVD SCHD 229 xlarge 0
+t:      42384 job   229 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 42532 230 1357 5 1700 3400
+RCVD SCHD 230 xlarge 0
+t:      42532 job   230 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 42552 231 194 8 8200 3300
+RCVD SCHD 231 xlarge 0
+t:      42552 job   231 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 42982 232 23 10 3700 16300
+RCVD SCHD 232 xlarge 0
+t:      42982 job   232 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 43067 233 119 15 2400 55300
+RCVD SCHD 233 xlarge 0
+t:      43067 job   233 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 43305 234 44 10 1500 6800
+RCVD SCHD 234 xlarge 0
+t:      43305 job   234 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 43733 235 107 5 500 7000
+RCVD SCHD 235 xlarge 0
+t:      43733 job   235 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 43825 236 44 9 7300 900
+RCVD SCHD 236 xlarge 0
+t:      43825 job   236 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 44075 237 21 8 3200 14300
+RCVD SCHD 237 xlarge 0
+t:      44075 job   237 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 44385 238 1 11 8500 7000
+RCVD SCHD 238 xlarge 0
+t:      44385 job   238 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      44531 job     9 on # 0 of server xlarge COMPLETED
+t:      44531 job    10 on # 0 of server xlarge RUNNING
+SENT JOBN 44871 239 71 6 2600 8000
+RCVD SCHD 239 xlarge 0
+t:      44871 job   239 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 45276 240 58 8 7200 9400
+RCVD SCHD 240 xlarge 0
+t:      45276 job   240 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 45809 241 157 4 700 5300
+RCVD SCHD 241 xlarge 0
+t:      45809 job   241 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 46042 242 6883 15 28200 49400
+RCVD SCHD 242 xlarge 0
+t:      46042 job   242 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 46567 243 1363 14 11100 26700
+RCVD SCHD 243 xlarge 0
+t:      46567 job   243 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 46576 244 5 3 500 1400
+RCVD SCHD 244 xlarge 0
+t:      46576 job   244 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 46832 245 67 14 28500 17300
+RCVD SCHD 245 xlarge 0
+t:      46832 job   245 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 46836 246 39 2 1700 2800
+RCVD SCHD 246 xlarge 0
+t:      46836 job   246 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 46879 247 2 6 800 9900
+RCVD SCHD 247 xlarge 0
+t:      46879 job   247 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 46971 248 80 3 3000 1800
+RCVD SCHD 248 xlarge 0
+t:      46971 job   248 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 47281 249 8 7 3600 12700
+RCVD SCHD 249 xlarge 0
+t:      47281 job   249 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 47511 250 129 13 14500 13100
+RCVD SCHD 250 xlarge 0
+t:      47511 job   250 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 47770 251 106 10 13700 36600
+RCVD SCHD 251 xlarge 0
+t:      47770 job   251 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 48146 252 200 12 18800 21600
+RCVD SCHD 252 xlarge 0
+t:      48146 job   252 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 48304 253 13 16 30100 44300
+RCVD SCHD 253 xlarge 0
+t:      48304 job   253 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 48459 254 263 15 29500 56100
+RCVD SCHD 254 xlarge 0
+t:      48459 job   254 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 48783 255 19 16 24400 61000
+RCVD SCHD 255 xlarge 0
+t:      48783 job   255 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 48974 256 295 11 19700 1400
+RCVD SCHD 256 xlarge 0
+t:      48974 job   256 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 49116 257 37157 1 500 1800
+RCVD SCHD 257 xlarge 0
+t:      49116 job   257 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 49524 258 195 14 12700 40400
+RCVD SCHD 258 xlarge 0
+t:      49524 job   258 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 49560 259 100 4 3800 5600
+RCVD SCHD 259 xlarge 0
+t:      49560 job   259 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 49610 260 90 16 21900 58600
+RCVD SCHD 260 xlarge 0
+t:      49610 job   260 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 49870 261 13 5 3500 6400
+RCVD SCHD 261 xlarge 0
+t:      49870 job   261 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 50077 262 38993 6 2500 1900
+RCVD SCHD 262 xlarge 0
+t:      50077 job   262 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 50168 263 861 2 500 2900
+RCVD SCHD 263 xlarge 0
+t:      50168 job   263 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 50197 264 9 5 700 6500
+RCVD SCHD 264 xlarge 0
+t:      50197 job   264 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 50347 265 6 3 300 2700
+RCVD SCHD 265 xlarge 0
+t:      50347 job   265 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 50731 266 103 15 30600 16600
+RCVD SCHD 266 xlarge 0
+t:      50731 job   266 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 50976 267 149 15 18400 52200
+RCVD SCHD 267 xlarge 0
+t:      50976 job   267 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 51130 268 8 10 20300 40500
+RCVD SCHD 268 xlarge 0
+t:      51130 job   268 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 51298 269 41 9 3900 11500
+RCVD SCHD 269 xlarge 0
+t:      51298 job   269 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 51437 270 188 8 8000 9300
+RCVD SCHD 270 xlarge 0
+t:      51437 job   270 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 51557 271 30346 13 16600 50400
+RCVD SCHD 271 xlarge 0
+t:      51557 job   271 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 51601 272 665 2 300 800
+RCVD SCHD 272 xlarge 0
+t:      51601 job   272 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 51719 273 126 4 900 4100
+RCVD SCHD 273 xlarge 0
+t:      51719 job   273 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 51730 274 12 7 3500 8200
+RCVD SCHD 274 xlarge 0
+t:      51730 job   274 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 52089 275 142 5 1600 8600
+RCVD SCHD 275 xlarge 0
+t:      52089 job   275 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 52121 276 21 4 2100 5800
+RCVD SCHD 276 xlarge 0
+t:      52121 job   276 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 52468 277 20396 14 5800 17500
+RCVD SCHD 277 xlarge 0
+t:      52468 job   277 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 52692 278 29 7 3900 4300
+RCVD SCHD 278 xlarge 0
+t:      52692 job   278 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 52992 279 25 6 1000 11900
+RCVD SCHD 279 xlarge 0
+t:      52992 job   279 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 53145 280 837 3 900 2300
+RCVD SCHD 280 xlarge 0
+t:      53145 job   280 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 53404 281 9 9 8300 17000
+RCVD SCHD 281 xlarge 0
+t:      53404 job   281 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 53659 282 11773 8 3800 2000
+RCVD SCHD 282 xlarge 0
+t:      53659 job   282 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 53731 283 583 1 1000 300
+RCVD SCHD 283 xlarge 0
+t:      53731 job   283 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 53907 284 243 16 10500 11500
+RCVD SCHD 284 xlarge 0
+t:      53907 job   284 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 53910 285 1 9 9700 5600
+RCVD SCHD 285 xlarge 0
+t:      53910 job   285 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 54119 286 586 5 2200 1300
+RCVD SCHD 286 xlarge 0
+t:      54119 job   286 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 54165 287 17 6 800 12000
+RCVD SCHD 287 xlarge 0
+t:      54165 job   287 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 54214 288 13 6 1100 10800
+RCVD SCHD 288 xlarge 0
+t:      54214 job   288 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 54427 289 38858 3 2900 2600
+RCVD SCHD 289 xlarge 0
+t:      54427 job   289 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 54465 290 38 5 4200 9800
+RCVD SCHD 290 xlarge 0
+t:      54465 job   290 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 54620 291 57 11 10500 18800
+RCVD SCHD 291 xlarge 0
+t:      54620 job   291 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 54652 292 19 7 5900 10300
+RCVD SCHD 292 xlarge 0
+t:      54652 job   292 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 54897 293 49941 13 5700 39800
+RCVD SCHD 293 xlarge 0
+t:      54897 job   293 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 54966 294 7 15 13500 40500
+RCVD SCHD 294 xlarge 0
+t:      54966 job   294 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 55217 295 2 14 10200 2500
+RCVD SCHD 295 xlarge 0
+t:      55217 job   295 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 55461 296 320 10 16700 39600
+RCVD SCHD 296 xlarge 0
+t:      55461 job   296 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 55625 297 156 14 3100 49400
+RCVD SCHD 297 xlarge 0
+t:      55625 job   297 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 55659 298 752 1 100 400
+RCVD SCHD 298 xlarge 0
+t:      55659 job   298 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 55719 299 42 6 4000 3400
+RCVD SCHD 299 xlarge 0
+t:      55719 job   299 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 55823 300 4 8 8100 6300
+RCVD SCHD 300 xlarge 0
+t:      55823 job   300 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 55991 301 2 8 3100 5200
+RCVD SCHD 301 xlarge 0
+t:      55991 job   301 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 56089 302 13 5 1800 1400
+RCVD SCHD 302 xlarge 0
+t:      56089 job   302 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 56307 303 33 1 400 1900
+RCVD SCHD 303 xlarge 0
+t:      56307 job   303 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      56342 job    10 on # 0 of server xlarge COMPLETED
+t:      56342 job    11 on # 0 of server xlarge RUNNING
+t:      56342 job    12 on # 0 of server xlarge RUNNING
+t:      56371 job    12 on # 0 of server xlarge COMPLETED
+SENT JOBN 56476 304 161 8 4300 15000
+RCVD SCHD 304 xlarge 0
+t:      56476 job   304 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 56541 305 2 13 5400 38200
+RCVD SCHD 305 xlarge 0
+t:      56541 job   305 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 56753 306 75661 11 16400 31200
+RCVD SCHD 306 xlarge 0
+t:      56753 job   306 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 56815 307 20 16 21500 44600
+RCVD SCHD 307 xlarge 0
+t:      56815 job   307 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 56849 308 6 13 18000 8200
+RCVD SCHD 308 xlarge 0
+t:      56849 job   308 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 56948 309 87 2 2000 3900
+RCVD SCHD 309 xlarge 0
+t:      56948 job   309 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      56988 job    11 on # 0 of server xlarge COMPLETED
+t:      56988 job    13 on # 0 of server xlarge RUNNING
+SENT JOBN 57049 310 2 8 5700 14200
+RCVD SCHD 310 xlarge 0
+t:      57049 job   310 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      57093 job    13 on # 0 of server xlarge COMPLETED
+t:      57093 job    14 on # 0 of server xlarge RUNNING
+t:      57093 job    15 on # 0 of server xlarge RUNNING
+t:      57188 job    15 on # 0 of server xlarge COMPLETED
+SENT JOBN 57223 311 43 7 6800 5700
+RCVD SCHD 311 xlarge 0
+t:      57223 job   311 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57337 312 1 14 10500 27700
+RCVD SCHD 312 xlarge 0
+t:      57337 job   312 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57493 313 19 8 4800 4900
+RCVD SCHD 313 xlarge 0
+t:      57493 job   313 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57537 314 64 15 3000 25200
+RCVD SCHD 314 xlarge 0
+t:      57537 job   314 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57559 315 5330 9 9000 12300
+RCVD SCHD 315 xlarge 0
+t:      57559 job   315 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57654 316 744 11 17300 39600
+RCVD SCHD 316 xlarge 0
+t:      57654 job   316 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57656 317 97 9 8400 15900
+RCVD SCHD 317 xlarge 0
+t:      57656 job   317 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57676 318 939 1 200 400
+RCVD SCHD 318 xlarge 0
+t:      57676 job   318 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57702 319 237 13 10400 1900
+RCVD SCHD 319 xlarge 0
+t:      57702 job   319 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57724 320 1 2 1500 1300
+RCVD SCHD 320 xlarge 0
+t:      57724 job   320 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57779 321 866 12 14000 37900
+RCVD SCHD 321 xlarge 0
+t:      57779 job   321 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57791 322 45 12 13300 14000
+RCVD SCHD 322 xlarge 0
+t:      57791 job   322 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57815 323 21 2 1400 3000
+RCVD SCHD 323 xlarge 0
+t:      57815 job   323 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57840 324 16 1 600 500
+RCVD SCHD 324 xlarge 0
+t:      57840 job   324 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57864 325 8145 16 13500 30200
+RCVD SCHD 325 xlarge 0
+t:      57864 job   325 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57929 326 870 1 300 500
+RCVD SCHD 326 xlarge 0
+t:      57929 job   326 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 57989 327 89 1 100 200
+RCVD SCHD 327 xlarge 0
+t:      57989 job   327 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 58109 328 52 1 900 1000
+RCVD SCHD 328 xlarge 0
+t:      58109 job   328 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 58268 329 51 9 4900 4500
+RCVD SCHD 329 xlarge 0
+t:      58268 job   329 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 58373 330 69 1 700 1900
+RCVD SCHD 330 xlarge 0
+t:      58373 job   330 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 58470 331 10 2 2100 1900
+RCVD SCHD 331 xlarge 0
+t:      58470 job   331 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 58474 332 304 1 900 100
+RCVD SCHD 332 xlarge 0
+t:      58474 job   332 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 58531 333 19 1 400 1700
+RCVD SCHD 333 xlarge 0
+t:      58531 job   333 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 58721 334 1106 1 300 1500
+RCVD SCHD 334 xlarge 0
+t:      58721 job   334 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 58810 335 208 1 300 1400
+RCVD SCHD 335 xlarge 0
+t:      58810 job   335 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 58821 336 31 1 900 1800
+RCVD SCHD 336 xlarge 0
+t:      58821 job   336 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 58944 337 51 1 300 1300
+RCVD SCHD 337 xlarge 0
+t:      58944 job   337 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 58956 338 124 2 1400 3900
+RCVD SCHD 338 xlarge 0
+t:      58956 job   338 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 59151 339 25 1 300 1800
+RCVD SCHD 339 xlarge 0
+t:      59151 job   339 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 59188 340 7 1 1000 1600
+RCVD SCHD 340 xlarge 0
+t:      59188 job   340 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 59317 341 685 1 100 1200
+RCVD SCHD 341 xlarge 0
+t:      59317 job   341 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 59459 342 252 2 800 1900
+RCVD SCHD 342 xlarge 0
+t:      59459 job   342 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 59649 343 46363 9 2300 3500
+RCVD SCHD 343 xlarge 0
+t:      59649 job   343 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 59747 344 10221 13 13600 23800
+RCVD SCHD 344 xlarge 0
+t:      59747 job   344 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 59768 345 72 2 1200 3000
+RCVD SCHD 345 xlarge 0
+t:      59768 job   345 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 59987 346 1736 1 900 1300
+RCVD SCHD 346 xlarge 0
+t:      59987 job   346 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 60087 347 440 1 1000 1000
+RCVD SCHD 347 xlarge 0
+t:      60087 job   347 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 60196 348 195 1 600 1400
+RCVD SCHD 348 xlarge 0
+t:      60196 job   348 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 60307 349 46 1 700 500
+RCVD SCHD 349 xlarge 0
+t:      60307 job   349 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 60418 350 6 1 300 1500
+RCVD SCHD 350 xlarge 0
+t:      60418 job   350 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 60434 351 53967 11 22800 38300
+RCVD SCHD 351 xlarge 0
+t:      60434 job   351 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 60496 352 7 1 800 1100
+RCVD SCHD 352 xlarge 0
+t:      60496 job   352 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 60740 353 1 2 1600 2900
+RCVD SCHD 353 xlarge 0
+t:      60740 job   353 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 60935 354 15 1 700 1400
+RCVD SCHD 354 xlarge 0
+t:      60935 job   354 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 61026 355 18337 3 1700 5400
+RCVD SCHD 355 xlarge 0
+t:      61026 job   355 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 61105 356 86 2 600 3300
+RCVD SCHD 356 xlarge 0
+t:      61105 job   356 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 61178 357 254 1 500 700
+RCVD SCHD 357 xlarge 0
+t:      61178 job   357 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 61260 358 5 1 200 300
+RCVD SCHD 358 xlarge 0
+t:      61260 job   358 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 61438 359 140 1 400 1500
+RCVD SCHD 359 xlarge 0
+t:      61438 job   359 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 61588 360 390 1 800 1300
+RCVD SCHD 360 xlarge 0
+t:      61588 job   360 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 61654 361 30711 13 24000 17100
+RCVD SCHD 361 xlarge 0
+t:      61654 job   361 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 61976 362 1472 1 500 800
+RCVD SCHD 362 xlarge 0
+t:      61976 job   362 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 62081 363 1 1 400 1000
+RCVD SCHD 363 xlarge 0
+t:      62081 job   363 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 62384 364 70 1 200 1300
+RCVD SCHD 364 xlarge 0
+t:      62384 job   364 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 62610 365 29 1 900 1000
+RCVD SCHD 365 xlarge 0
+t:      62610 job   365 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 62702 366 420 1 800 400
+RCVD SCHD 366 xlarge 0
+t:      62702 job   366 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 62703 367 43 1 700 1500
+RCVD SCHD 367 xlarge 0
+t:      62703 job   367 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 62842 368 16 2 800 3700
+RCVD SCHD 368 xlarge 0
+t:      62842 job   368 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 63104 369 10 1 700 1400
+RCVD SCHD 369 xlarge 0
+t:      63104 job   369 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 63302 370 187 1 800 1700
+RCVD SCHD 370 xlarge 0
+t:      63302 job   370 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 63560 371 87 1 700 900
+RCVD SCHD 371 xlarge 0
+t:      63560 job   371 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 63856 372 39 1 700 1800
+RCVD SCHD 372 xlarge 0
+t:      63856 job   372 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 64050 373 433 1 100 1100
+RCVD SCHD 373 xlarge 0
+t:      64050 job   373 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 64061 374 7803 5 4300 4200
+RCVD SCHD 374 xlarge 0
+t:      64061 job   374 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 64113 375 94 1 500 1400
+RCVD SCHD 375 xlarge 0
+t:      64113 job   375 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 64431 376 1616 1 600 1400
+RCVD SCHD 376 xlarge 0
+t:      64431 job   376 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 64595 377 676 1 100 100
+RCVD SCHD 377 xlarge 0
+t:      64595 job   377 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 64996 378 665 2 2000 300
+RCVD SCHD 378 xlarge 0
+t:      64996 job   378 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 65068 379 59 1 700 100
+RCVD SCHD 379 xlarge 0
+t:      65068 job   379 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 65375 380 10 1 900 1800
+RCVD SCHD 380 xlarge 0
+t:      65375 job   380 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 65471 381 239 1 700 1600
+RCVD SCHD 381 xlarge 0
+t:      65471 job   381 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 65593 382 211 2 1900 3400
+RCVD SCHD 382 xlarge 0
+t:      65593 job   382 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 65655 383 2781 1 800 300
+RCVD SCHD 383 xlarge 0
+t:      65655 job   383 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 65842 384 13 2 900 1400
+RCVD SCHD 384 xlarge 0
+t:      65842 job   384 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 66134 385 26378 16 33400 54800
+RCVD SCHD 385 xlarge 0
+t:      66134 job   385 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 66456 386 7 1 500 2000
+RCVD SCHD 386 xlarge 0
+t:      66456 job   386 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 66586 387 18 1 500 2000
+RCVD SCHD 387 xlarge 0
+t:      66586 job   387 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 66998 388 63 1 800 1200
+RCVD SCHD 388 xlarge 0
+t:      66998 job   388 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 67227 389 3 1 100 100
+RCVD SCHD 389 xlarge 0
+t:      67227 job   389 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 67523 390 324 1 900 1300
+RCVD SCHD 390 xlarge 0
+t:      67523 job   390 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 67893 391 46 2 800 2500
+RCVD SCHD 391 xlarge 0
+t:      67893 job   391 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 68166 392 241 2 500 2800
+RCVD SCHD 392 xlarge 0
+t:      68166 job   392 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 68223 393 72 1 500 1800
+RCVD SCHD 393 xlarge 0
+t:      68223 job   393 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 68250 394 110 2 400 2100
+RCVD SCHD 394 xlarge 0
+t:      68250 job   394 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 68582 395 172 2 2000 1700
+RCVD SCHD 395 xlarge 0
+t:      68582 job   395 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 68713 396 180 1 400 1300
+RCVD SCHD 396 xlarge 0
+t:      68713 job   396 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 68835 397 536 1 500 2000
+RCVD SCHD 397 xlarge 0
+t:      68835 job   397 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 69035 398 10046 8 5000 8100
+RCVD SCHD 398 xlarge 0
+t:      69035 job   398 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 69494 399 1145 1 500 1200
+RCVD SCHD 399 xlarge 0
+t:      69494 job   399 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 69953 400 6 1 600 700
+RCVD SCHD 400 xlarge 0
+t:      69953 job   400 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 70017 401 73 2 1900 3700
+RCVD SCHD 401 xlarge 0
+t:      70017 job   401 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 70087 402 12 2 1400 1200
+RCVD SCHD 402 xlarge 0
+t:      70087 job   402 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 70474 403 123 1 600 400
+RCVD SCHD 403 xlarge 0
+t:      70474 job   403 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 70543 404 13 1 1000 800
+RCVD SCHD 404 xlarge 0
+t:      70543 job   404 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 70764 405 8 1 1000 1500
+RCVD SCHD 405 xlarge 0
+t:      70764 job   405 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 70924 406 11 1 400 300
+RCVD SCHD 406 xlarge 0
+t:      70924 job   406 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71067 407 9 1 400 200
+RCVD SCHD 407 xlarge 0
+t:      71067 job   407 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71075 408 27 1 600 1800
+RCVD SCHD 408 xlarge 0
+t:      71075 job   408 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71178 409 12 1 500 600
+RCVD SCHD 409 xlarge 0
+t:      71178 job   409 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71369 410 48 1 100 400
+RCVD SCHD 410 xlarge 0
+t:      71369 job   410 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71551 411 205 1 900 300
+RCVD SCHD 411 xlarge 0
+t:      71551 job   411 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71818 412 107 1 600 1000
+RCVD SCHD 412 xlarge 0
+t:      71818 job   412 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 71834 413 20271 10 8100 18500
+RCVD SCHD 413 xlarge 0
+t:      71834 job   413 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 72419 414 220 2 1200 700
+RCVD SCHD 414 xlarge 0
+t:      72419 job   414 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 72855 415 1 1 800 1400
+RCVD SCHD 415 xlarge 0
+t:      72855 job   415 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 73206 416 31745 14 22800 56700
+RCVD SCHD 416 xlarge 0
+t:      73206 job   416 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 73607 417 35 1 200 1500
+RCVD SCHD 417 xlarge 0
+t:      73607 job   417 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 73669 418 9 1 400 900
+RCVD SCHD 418 xlarge 0
+t:      73669 job   418 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 74141 419 213 1 700 800
+RCVD SCHD 419 xlarge 0
+t:      74141 job   419 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 74442 420 201 2 1700 2300
+RCVD SCHD 420 xlarge 0
+t:      74442 job   420 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 74472 421 3204 1 800 700
+RCVD SCHD 421 xlarge 0
+t:      74472 job   421 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 74562 422 11 1 400 1400
+RCVD SCHD 422 xlarge 0
+t:      74562 job   422 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 74769 423 14732 12 23100 28400
+RCVD SCHD 423 xlarge 0
+t:      74769 job   423 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 74777 424 13 1 1000 800
+RCVD SCHD 424 xlarge 0
+t:      74777 job   424 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 75046 425 22 2 200 4000
+RCVD SCHD 425 xlarge 0
+t:      75046 job   425 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 75218 426 36 1 600 500
+RCVD SCHD 426 xlarge 0
+t:      75218 job   426 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 75594 427 1 1 1000 1600
+RCVD SCHD 427 xlarge 0
+t:      75594 job   427 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 75831 428 238 1 200 600
+RCVD SCHD 428 xlarge 0
+t:      75831 job   428 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 76014 429 4 1 700 400
+RCVD SCHD 429 xlarge 0
+t:      76014 job   429 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 76217 430 16599 5 1900 5500
+RCVD SCHD 430 xlarge 0
+t:      76217 job   430 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 76271 431 49 2 1400 1500
+RCVD SCHD 431 xlarge 0
+t:      76271 job   431 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 76323 432 14 1 1000 900
+RCVD SCHD 432 xlarge 0
+t:      76323 job   432 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 76783 433 94 1 600 600
+RCVD SCHD 433 xlarge 0
+t:      76783 job   433 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 77152 434 34066 1 300 1200
+RCVD SCHD 434 xlarge 0
+t:      77152 job   434 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 77485 435 120 1 100 300
+RCVD SCHD 435 xlarge 0
+t:      77485 job   435 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 77486 436 1 1 200 200
+RCVD SCHD 436 xlarge 0
+t:      77486 job   436 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      77522 job    14 on # 0 of server xlarge COMPLETED
+t:      77522 job    16 on # 0 of server xlarge RUNNING
+t:      77585 job    16 on # 0 of server xlarge COMPLETED
+t:      77585 job    17 on # 0 of server xlarge RUNNING
+t:      77585 job    18 on # 0 of server xlarge RUNNING
+t:      77585 job    19 on # 0 of server xlarge RUNNING
+t:      77601 job    18 on # 0 of server xlarge COMPLETED
+t:      77601 job    20 on # 0 of server xlarge RUNNING
+t:      77607 job    17 on # 0 of server xlarge COMPLETED
+t:      77607 job    21 on # 0 of server xlarge RUNNING
+t:      77609 job    21 on # 0 of server xlarge COMPLETED
+SENT JOBN 77614 437 29 2 1500 800
+RCVD SCHD 437 xlarge 0
+t:      77614 job   437 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      77696 job    20 on # 0 of server xlarge COMPLETED
+SENT JOBN 77723 438 4 1 1000 2000
+RCVD SCHD 438 xlarge 0
+t:      77723 job   438 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      78020 job    19 on # 0 of server xlarge COMPLETED
+t:      78020 job    22 on # 0 of server xlarge RUNNING
+SENT JOBN 78357 439 8 1 300 400
+RCVD SCHD 439 xlarge 0
+t:      78357 job   439 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      78673 job    22 on # 0 of server xlarge COMPLETED
+t:      78673 job    23 on # 0 of server xlarge RUNNING
+t:      78673 job    24 on # 0 of server xlarge RUNNING
+t:      78673 job    25 on # 0 of server xlarge RUNNING
+SENT JOBN 78737 440 9 2 1400 400
+RCVD SCHD 440 xlarge 0
+t:      78737 job   440 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      78738 job    24 on # 0 of server xlarge COMPLETED
+t:      78786 job    25 on # 0 of server xlarge COMPLETED
+t:      78786 job    26 on # 0 of server xlarge RUNNING
+t:      78788 job    26 on # 0 of server xlarge COMPLETED
+SENT JOBN 79158 441 5 1 1000 600
+RCVD SCHD 441 xlarge 0
+t:      79158 job   441 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:      79459 job    23 on # 0 of server xlarge COMPLETED
+t:      79459 job    27 on # 0 of server xlarge RUNNING
+SENT JOBN 79633 442 11 1 300 400
+RCVD SCHD 442 xlarge 0
+t:      79633 job   442 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 79634 443 44 2 1400 3800
+RCVD SCHD 443 xlarge 0
+t:      79634 job   443 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 79755 444 10302 1 600 800
+RCVD SCHD 444 xlarge 0
+t:      79755 job   444 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 80414 445 522 1 700 1600
+RCVD SCHD 445 xlarge 0
+t:      80414 job   445 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 80694 446 926 1 400 1800
+RCVD SCHD 446 xlarge 0
+t:      80694 job   446 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 81191 447 8 1 100 1400
+RCVD SCHD 447 xlarge 0
+t:      81191 job   447 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 81377 448 904 1 600 1600
+RCVD SCHD 448 xlarge 0
+t:      81377 job   448 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 81671 449 26325 12 15600 22300
+RCVD SCHD 449 xlarge 0
+t:      81671 job   449 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 81791 450 14 2 500 2800
+RCVD SCHD 450 xlarge 0
+t:      81791 job   450 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 82337 451 7 1 1000 1900
+RCVD SCHD 451 xlarge 0
+t:      82337 job   451 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 82479 452 22 1 1000 100
+RCVD SCHD 452 xlarge 0
+t:      82479 job   452 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 83147 453 1055 1 1000 1000
+RCVD SCHD 453 xlarge 0
+t:      83147 job   453 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 83751 454 96 1 200 1500
+RCVD SCHD 454 xlarge 0
+t:      83751 job   454 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 84027 455 29 1 300 2000
+RCVD SCHD 455 xlarge 0
+t:      84027 job   455 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 84647 456 43 2 1300 700
+RCVD SCHD 456 xlarge 0
+t:      84647 job   456 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 85184 457 264 1 100 1100
+RCVD SCHD 457 xlarge 0
+t:      85184 job   457 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 85510 458 2 2 1700 3200
+RCVD SCHD 458 xlarge 0
+t:      85510 job   458 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 85880 459 15 1 300 500
+RCVD SCHD 459 xlarge 0
+t:      85880 job   459 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 86133 460 6 1 800 400
+RCVD SCHD 460 xlarge 0
+t:      86133 job   460 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 86631 461 237 1 100 1300
+RCVD SCHD 461 xlarge 0
+t:      86631 job   461 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 87062 462 23 1 600 300
+RCVD SCHD 462 xlarge 0
+t:      87062 job   462 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 87387 463 94 1 400 700
+RCVD SCHD 463 xlarge 0
+t:      87387 job   463 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 87770 464 16 1 600 1900
+RCVD SCHD 464 xlarge 0
+t:      87770 job   464 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 87825 465 4 1 300 300
+RCVD SCHD 465 xlarge 0
+t:      87825 job   465 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 88035 466 363 1 200 600
+RCVD SCHD 466 xlarge 0
+t:      88035 job   466 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 88810 467 1000 16 13500 13600
+RCVD SCHD 467 xlarge 0
+t:      88810 job   467 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 89575 468 390 1 300 700
+RCVD SCHD 468 xlarge 0
+t:      89575 job   468 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 89653 469 19 1 300 200
+RCVD SCHD 469 xlarge 0
+t:      89653 job   469 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 90073 470 22 1 100 200
+RCVD SCHD 470 xlarge 0
+t:      90073 job   470 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 90747 471 24623 11 3300 41300
+RCVD SCHD 471 xlarge 0
+t:      90747 job   471 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 91408 472 20 1 1000 1200
+RCVD SCHD 472 xlarge 0
+t:      91408 job   472 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 92226 473 12 1 800 200
+RCVD SCHD 473 xlarge 0
+t:      92226 job   473 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 92601 474 108 1 900 500
+RCVD SCHD 474 xlarge 0
+t:      92601 job   474 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 92651 475 59 1 700 2000
+RCVD SCHD 475 xlarge 0
+t:      92651 job   475 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 92699 476 298 1 1000 700
+RCVD SCHD 476 xlarge 0
+t:      92699 job   476 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 93218 477 1 1 500 2000
+RCVD SCHD 477 xlarge 0
+t:      93218 job   477 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 93827 478 32468 16 11300 7300
+RCVD SCHD 478 xlarge 0
+t:      93827 job   478 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 94183 479 1062 1 300 900
+RCVD SCHD 479 xlarge 0
+t:      94183 job   479 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 94504 480 161 1 900 1800
+RCVD SCHD 480 xlarge 0
+t:      94504 job   480 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 95371 481 30 2 600 3100
+RCVD SCHD 481 xlarge 0
+t:      95371 job   481 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 95873 482 103 2 1800 2000
+RCVD SCHD 482 xlarge 0
+t:      95873 job   482 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 96764 483 66 2 900 3800
+RCVD SCHD 483 xlarge 0
+t:      96764 job   483 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 97241 484 24 1 100 500
+RCVD SCHD 484 xlarge 0
+t:      97241 job   484 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 97397 485 151 1 100 1800
+RCVD SCHD 485 xlarge 0
+t:      97397 job   485 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 97595 486 11 2 1200 1900
+RCVD SCHD 486 xlarge 0
+t:      97595 job   486 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 97939 487 81 1 100 1700
+RCVD SCHD 487 xlarge 0
+t:      97939 job   487 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 98053 488 16 1 500 1900
+RCVD SCHD 488 xlarge 0
+t:      98053 job   488 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 98808 489 1 1 400 1700
+RCVD SCHD 489 xlarge 0
+t:      98808 job   489 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 99546 490 6 8 1100 4800
+RCVD SCHD 490 xlarge 0
+t:      99546 job   490 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 100267 491 29 12 10800 40900
+RCVD SCHD 491 xlarge 0
+t:     100267 job   491 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 100545 492 174 12 20400 30700
+RCVD SCHD 492 xlarge 0
+t:     100545 job   492 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 100601 493 39141 6 800 7300
+RCVD SCHD 493 xlarge 0
+t:     100601 job   493 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 100863 494 125 1 800 200
+RCVD SCHD 494 xlarge 0
+t:     100863 job   494 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 101567 495 27646 7 5500 9700
+RCVD SCHD 495 xlarge 0
+t:     101567 job   495 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:     101604 job    27 on # 0 of server xlarge COMPLETED
+t:     101604 job    28 on # 0 of server xlarge RUNNING
+t:     101604 job    29 on # 0 of server xlarge RUNNING
+t:     101604 job    30 on # 0 of server xlarge RUNNING
+t:     101613 job    29 on # 0 of server xlarge COMPLETED
+t:     101613 job    31 on # 0 of server xlarge RUNNING
+t:     101615 job    30 on # 0 of server xlarge COMPLETED
+t:     101702 job    31 on # 0 of server xlarge COMPLETED
+SENT JOBN 101930 496 3 3 400 5900
+RCVD SCHD 496 xlarge 0
+t:     101930 job   496 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 102260 497 227 7 2700 10100
+RCVD SCHD 497 xlarge 0
+t:     102260 job   497 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 102440 498 1113 5 3900 6800
+RCVD SCHD 498 xlarge 0
+t:     102440 job   498 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:     102450 job    28 on # 0 of server xlarge COMPLETED
+t:     102450 job    32 on # 0 of server xlarge RUNNING
+t:     102450 job    33 on # 0 of server xlarge RUNNING
+SENT JOBN 102531 499 283 2 1300 4100
+RCVD SCHD 499 xlarge 0
+t:     102531 job   499 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 103141 500 6 14 22500 27300
+RCVD SCHD 500 xlarge 0
+t:     103141 job   500 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 103455 501 1386 16 22800 18700
+RCVD SCHD 501 xlarge 0
+t:     103455 job   501 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 104024 502 26 13 22400 48100
+RCVD SCHD 502 xlarge 0
+t:     104024 job   502 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 104791 503 224 7 1500 2700
+RCVD SCHD 503 xlarge 0
+t:     104791 job   503 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 105246 504 5911 9 5900 11400
+RCVD SCHD 504 xlarge 0
+t:     105246 job   504 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 105542 505 100 14 16100 41100
+RCVD SCHD 505 xlarge 0
+t:     105542 job   505 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 105661 506 3209 13 13200 12400
+RCVD SCHD 506 xlarge 0
+t:     105661 job   506 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 106040 507 848 11 9600 20800
+RCVD SCHD 507 xlarge 0
+t:     106040 job   507 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 106897 508 2 5 5400 2200
+RCVD SCHD 508 xlarge 0
+t:     106897 job   508 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 107435 509 209 7 4200 8400
+RCVD SCHD 509 xlarge 0
+t:     107435 job   509 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 108168 510 62 3 2000 1300
+RCVD SCHD 510 xlarge 0
+t:     108168 job   510 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 108260 511 491 5 5200 4800
+RCVD SCHD 511 xlarge 0
+t:     108260 job   511 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 108671 512 12 10 18900 10200
+RCVD SCHD 512 xlarge 0
+t:     108671 job   512 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 109419 513 64 10 11000 30900
+RCVD SCHD 513 xlarge 0
+t:     109419 job   513 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 109968 514 2 15 18000 30100
+RCVD SCHD 514 xlarge 0
+t:     109968 job   514 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 110304 515 1 2 1100 2700
+RCVD SCHD 515 xlarge 0
+t:     110304 job   515 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 111094 516 85 3 1400 3700
+RCVD SCHD 516 xlarge 0
+t:     111094 job   516 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 111325 517 632 8 5500 11200
+RCVD SCHD 517 xlarge 0
+t:     111325 job   517 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 112080 518 40 12 2500 27500
+RCVD SCHD 518 xlarge 0
+t:     112080 job   518 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 112198 519 24 8 6400 15000
+RCVD SCHD 519 xlarge 0
+t:     112198 job   519 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 112406 520 1132 9 3400 16000
+RCVD SCHD 520 xlarge 0
+t:     112406 job   520 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 112802 521 15 5 700 1300
+RCVD SCHD 521 xlarge 0
+t:     112802 job   521 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 112835 522 50 7 1100 1700
+RCVD SCHD 522 xlarge 0
+t:     112835 job   522 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 113177 523 43 3 500 5500
+RCVD SCHD 523 xlarge 0
+t:     113177 job   523 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 113899 524 20 1 500 600
+RCVD SCHD 524 xlarge 0
+t:     113899 job   524 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 114383 525 56 14 6200 46600
+RCVD SCHD 525 xlarge 0
+t:     114383 job   525 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 114404 526 99 4 1200 1500
+RCVD SCHD 526 xlarge 0
+t:     114404 job   526 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 114765 527 1412 13 18300 8000
+RCVD SCHD 527 xlarge 0
+t:     114765 job   527 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 114815 528 5 3 600 900
+RCVD SCHD 528 xlarge 0
+t:     114815 job   528 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 115518 529 275 9 7100 13300
+RCVD SCHD 529 xlarge 0
+t:     115518 job   529 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 116176 530 4280 9 1100 12800
+RCVD SCHD 530 xlarge 0
+t:     116176 job   530 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 116346 531 13 2 400 800
+RCVD SCHD 531 xlarge 0
+t:     116346 job   531 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 116683 532 89 11 12600 3700
+RCVD SCHD 532 xlarge 0
+t:     116683 job   532 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 116953 533 120 2 1000 1500
+RCVD SCHD 533 xlarge 0
+t:     116953 job   533 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 117499 534 729 10 19700 28100
+RCVD SCHD 534 xlarge 0
+t:     117499 job   534 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 117921 535 32 2 1700 1200
+RCVD SCHD 535 xlarge 0
+t:     117921 job   535 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 117968 536 1550 6 1400 7400
+RCVD SCHD 536 xlarge 0
+t:     117968 job   536 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 118338 537 19 11 16700 25300
+RCVD SCHD 537 xlarge 0
+t:     118338 job   537 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 118525 538 108 13 3000 37400
+RCVD SCHD 538 xlarge 0
+t:     118525 job   538 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 118883 539 88 7 7500 7700
+RCVD SCHD 539 xlarge 0
+t:     118883 job   539 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 119516 540 588 16 32600 27100
+RCVD SCHD 540 xlarge 0
+t:     119516 job   540 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 119597 541 129 14 26900 5100
+RCVD SCHD 541 xlarge 0
+t:     119597 job   541 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 120183 542 3 8 1700 3400
+RCVD SCHD 542 xlarge 0
+t:     120183 job   542 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 120323 543 308 2 500 2300
+RCVD SCHD 543 xlarge 0
+t:     120323 job   543 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 120589 544 25 12 23100 43500
+RCVD SCHD 544 xlarge 0
+t:     120589 job   544 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 120916 545 21 16 11800 37600
+RCVD SCHD 545 xlarge 0
+t:     120916 job   545 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 121265 546 606 11 10200 39500
+RCVD SCHD 546 xlarge 0
+t:     121265 job   546 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 121689 547 100 16 10200 43300
+RCVD SCHD 547 xlarge 0
+t:     121689 job   547 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 121923 548 12 15 3700 9200
+RCVD SCHD 548 xlarge 0
+t:     121923 job   548 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 122061 549 5 1 400 1600
+RCVD SCHD 549 xlarge 0
+t:     122061 job   549 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 122528 550 1031 15 20300 8600
+RCVD SCHD 550 xlarge 0
+t:     122528 job   550 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 123069 551 38015 2 1500 600
+RCVD SCHD 551 xlarge 0
+t:     123069 job   551 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 123125 552 54119 14 6400 6200
+RCVD SCHD 552 xlarge 0
+t:     123125 job   552 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 123207 553 18 14 23300 2200
+RCVD SCHD 553 xlarge 0
+t:     123207 job   553 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 123552 554 243 15 26900 9200
+RCVD SCHD 554 xlarge 0
+t:     123552 job   554 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 123637 555 828 14 26900 35400
+RCVD SCHD 555 xlarge 0
+t:     123637 job   555 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 123911 556 38 4 3000 3000
+RCVD SCHD 556 xlarge 0
+t:     123911 job   556 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 123950 557 550 9 8200 14200
+RCVD SCHD 557 xlarge 0
+t:     123950 job   557 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 124476 558 90 13 22300 30100
+RCVD SCHD 558 xlarge 0
+t:     124476 job   558 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 124542 559 38 2 2000 1500
+RCVD SCHD 559 xlarge 0
+t:     124542 job   559 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 124935 560 88 4 3900 8300
+RCVD SCHD 560 xlarge 0
+t:     124935 job   560 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 125343 561 30 13 22800 3300
+RCVD SCHD 561 xlarge 0
+t:     125343 job   561 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 125501 562 16 4 2100 2900
+RCVD SCHD 562 xlarge 0
+t:     125501 job   562 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 125734 563 14 8 1000 12100
+RCVD SCHD 563 xlarge 0
+t:     125734 job   563 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 125904 564 177 10 8400 11000
+RCVD SCHD 564 xlarge 0
+t:     125904 job   564 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:     126172 job    33 on # 0 of server xlarge COMPLETED
+SENT JOBN 126486 565 22 10 10100 22400
+RCVD SCHD 565 xlarge 0
+t:     126486 job   565 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 126598 566 3 12 5500 10400
+RCVD SCHD 566 xlarge 0
+t:     126598 job   566 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 126942 567 592 13 8000 32300
+RCVD SCHD 567 xlarge 0
+t:     126942 job   567 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 127063 568 607 3 2300 4700
+RCVD SCHD 568 xlarge 0
+t:     127063 job   568 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 127562 569 65 6 3100 6600
+RCVD SCHD 569 xlarge 0
+t:     127562 job   569 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 127802 570 22 1 1000 1900
+RCVD SCHD 570 xlarge 0
+t:     127802 job   570 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 127804 571 20 6 3400 7600
+RCVD SCHD 571 xlarge 0
+t:     127804 job   571 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 127834 572 27 9 2200 2700
+RCVD SCHD 572 xlarge 0
+t:     127834 job   572 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 128109 573 115 1 500 1000
+RCVD SCHD 573 xlarge 0
+t:     128109 job   573 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 128465 574 13 10 14000 2900
+RCVD SCHD 574 xlarge 0
+t:     128465 job   574 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 128758 575 40 1 300 300
+RCVD SCHD 575 xlarge 0
+t:     128758 job   575 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 129084 576 128 11 17400 23000
+RCVD SCHD 576 xlarge 0
+t:     129084 job   576 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 129424 577 6 16 29400 29600
+RCVD SCHD 577 xlarge 0
+t:     129424 job   577 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 129906 578 196 15 28700 56900
+RCVD SCHD 578 xlarge 0
+t:     129906 job   578 (waiting) on # 0 of server xlarge (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT NONE
+RCVD QUIT
+t:     131429 job    32 on # 0 of server xlarge COMPLETED
+t:     131429 job    34 on # 0 of server xlarge RUNNING
+t:     131429 job    35 on # 0 of server xlarge RUNNING
+t:     131429 job    36 on # 0 of server xlarge RUNNING
+t:     131457 job    34 on # 0 of server xlarge COMPLETED
+t:     131457 job    37 on # 0 of server xlarge RUNNING
+t:     131457 job    38 on # 0 of server xlarge RUNNING
+t:     131457 job    39 on # 0 of server xlarge RUNNING
+t:     131457 job    40 on # 0 of server xlarge RUNNING
+t:     131473 job    39 on # 0 of server xlarge COMPLETED
+t:     131473 job    41 on # 0 of server xlarge RUNNING
+t:     131571 job    35 on # 0 of server xlarge COMPLETED
+t:     131571 job    42 on # 0 of server xlarge RUNNING
+t:     131591 job    42 on # 0 of server xlarge COMPLETED
+t:     131607 job    40 on # 0 of server xlarge COMPLETED
+t:     131635 job    37 on # 0 of server xlarge COMPLETED
+t:     131807 job    41 on # 0 of server xlarge COMPLETED
+t:     138430 job    36 on # 0 of server xlarge COMPLETED
+t:     146531 job    38 on # 0 of server xlarge COMPLETED
+t:     146531 job    43 on # 0 of server xlarge RUNNING
+t:     158720 job    43 on # 0 of server xlarge COMPLETED
+t:     158720 job    44 on # 0 of server xlarge RUNNING
+t:     158720 job    45 on # 0 of server xlarge RUNNING
+t:     158720 job    46 on # 0 of server xlarge RUNNING
+t:     158720 job    47 on # 0 of server xlarge RUNNING
+t:     158720 job    48 on # 0 of server xlarge RUNNING
+t:     158720 job    49 on # 0 of server xlarge RUNNING
+t:     158720 job    50 on # 0 of server xlarge RUNNING
+t:     158720 job    51 on # 0 of server xlarge RUNNING
+t:     158720 job    52 on # 0 of server xlarge RUNNING
+t:     158720 job    53 on # 0 of server xlarge RUNNING
+t:     158720 job    54 on # 0 of server xlarge RUNNING
+t:     158720 job    55 on # 0 of server xlarge RUNNING
+t:     158727 job    49 on # 0 of server xlarge COMPLETED
+t:     158727 job    56 on # 0 of server xlarge RUNNING
+t:     158727 job    53 on # 0 of server xlarge COMPLETED
+t:     158728 job    44 on # 0 of server xlarge COMPLETED
+t:     158728 job    57 on # 0 of server xlarge RUNNING
+t:     158728 job    58 on # 0 of server xlarge RUNNING
+t:     158734 job    50 on # 0 of server xlarge COMPLETED
+t:     158734 job    59 on # 0 of server xlarge RUNNING
+t:     158741 job    48 on # 0 of server xlarge COMPLETED
+t:     158741 job    60 on # 0 of server xlarge RUNNING
+t:     158741 job    54 on # 0 of server xlarge COMPLETED
+t:     158743 job    51 on # 0 of server xlarge COMPLETED
+t:     158743 job    61 on # 0 of server xlarge RUNNING
+t:     158746 job    58 on # 0 of server xlarge COMPLETED
+t:     158746 job    62 on # 0 of server xlarge RUNNING
+t:     158751 job    56 on # 0 of server xlarge COMPLETED
+t:     158751 job    63 on # 0 of server xlarge RUNNING
+t:     158751 job    64 on # 0 of server xlarge RUNNING
+t:     158755 job    61 on # 0 of server xlarge COMPLETED
+t:     158755 job    65 on # 0 of server xlarge RUNNING
+t:     158755 job    63 on # 0 of server xlarge COMPLETED
+t:     158758 job    65 on # 0 of server xlarge COMPLETED
+t:     158763 job    59 on # 0 of server xlarge COMPLETED
+t:     158803 job    47 on # 0 of server xlarge COMPLETED
+t:     158811 job    57 on # 0 of server xlarge COMPLETED
+t:     158821 job    62 on # 0 of server xlarge COMPLETED
+t:     158849 job    64 on # 0 of server xlarge COMPLETED
+t:     158871 job    55 on # 0 of server xlarge COMPLETED
+t:     158873 job    45 on # 0 of server xlarge COMPLETED
+t:     158873 job    66 on # 0 of server xlarge RUNNING
+t:     158873 job    67 on # 0 of server xlarge RUNNING
+t:     158875 job    67 on # 0 of server xlarge COMPLETED
+t:     158875 job    68 on # 0 of server xlarge RUNNING
+t:     158890 job    52 on # 0 of server xlarge COMPLETED
+t:     158890 job    69 on # 0 of server xlarge RUNNING
+t:     158920 job    69 on # 0 of server xlarge COMPLETED
+t:     158920 job    70 on # 0 of server xlarge RUNNING
+t:     158929 job    70 on # 0 of server xlarge COMPLETED
+t:     158929 job    71 on # 0 of server xlarge RUNNING
+t:     159051 job    68 on # 0 of server xlarge COMPLETED
+t:     159051 job    72 on # 0 of server xlarge RUNNING
+t:     159069 job    72 on # 0 of server xlarge COMPLETED
+t:     159469 job    71 on # 0 of server xlarge COMPLETED
+t:     159469 job    73 on # 0 of server xlarge RUNNING
+t:     159586 job    60 on # 0 of server xlarge COMPLETED
+t:     159586 job    74 on # 0 of server xlarge RUNNING
+t:     159611 job    74 on # 0 of server xlarge COMPLETED
+t:     159611 job    75 on # 0 of server xlarge RUNNING
+t:     159731 job    75 on # 0 of server xlarge COMPLETED
+t:     159731 job    76 on # 0 of server xlarge RUNNING
+t:     159737 job    76 on # 0 of server xlarge COMPLETED
+t:     159737 job    77 on # 0 of server xlarge RUNNING
+t:     159892 job    73 on # 0 of server xlarge COMPLETED
+t:     159892 job    78 on # 0 of server xlarge RUNNING
+t:     159892 job    79 on # 0 of server xlarge RUNNING
+t:     159925 job    78 on # 0 of server xlarge COMPLETED
+t:     159925 job    80 on # 0 of server xlarge RUNNING
+t:     160028 job    80 on # 0 of server xlarge COMPLETED
+t:     160028 job    81 on # 0 of server xlarge RUNNING
+t:     160043 job    79 on # 0 of server xlarge COMPLETED
+t:     160043 job    82 on # 0 of server xlarge RUNNING
+t:     160064 job    82 on # 0 of server xlarge COMPLETED
+t:     160064 job    83 on # 0 of server xlarge RUNNING
+t:     160087 job    81 on # 0 of server xlarge COMPLETED
+t:     160087 job    84 on # 0 of server xlarge RUNNING
+t:     160424 job    84 on # 0 of server xlarge COMPLETED
+t:     160424 job    85 on # 0 of server xlarge RUNNING
+t:     160522 job    83 on # 0 of server xlarge COMPLETED
+t:     160522 job    86 on # 0 of server xlarge RUNNING
+t:     160578 job    77 on # 0 of server xlarge COMPLETED
+t:     160599 job    86 on # 0 of server xlarge COMPLETED
+t:     160599 job    87 on # 0 of server xlarge RUNNING
+t:     160747 job    87 on # 0 of server xlarge COMPLETED
+t:     160747 job    88 on # 0 of server xlarge RUNNING
+t:     160747 job    89 on # 0 of server xlarge RUNNING
+t:     160776 job    88 on # 0 of server xlarge COMPLETED
+t:     160776 job    90 on # 0 of server xlarge RUNNING
+t:     160776 job    89 on # 0 of server xlarge COMPLETED
+t:     160776 job    91 on # 0 of server xlarge RUNNING
+t:     160872 job    91 on # 0 of server xlarge COMPLETED
+t:     160872 job    92 on # 0 of server xlarge RUNNING
+t:     161125 job    85 on # 0 of server xlarge COMPLETED
+t:     161542 job    92 on # 0 of server xlarge COMPLETED
+t:     161624 job    90 on # 0 of server xlarge COMPLETED
+t:     168611 job    46 on # 0 of server xlarge COMPLETED
+t:     186834 job    66 on # 0 of server xlarge COMPLETED
+t:     186834 job    93 on # 0 of server xlarge RUNNING
+t:     186834 job    94 on # 0 of server xlarge RUNNING
+t:     186834 job    95 on # 0 of server xlarge RUNNING
+t:     186834 job    96 on # 0 of server xlarge RUNNING
+t:     187276 job    95 on # 0 of server xlarge COMPLETED
+t:     187276 job    97 on # 0 of server xlarge RUNNING
+t:     187276 job    98 on # 0 of server xlarge RUNNING
+t:     187300 job    98 on # 0 of server xlarge COMPLETED
+t:     187300 job    99 on # 0 of server xlarge RUNNING
+t:     187321 job    99 on # 0 of server xlarge COMPLETED
+t:     187321 job   100 on # 0 of server xlarge RUNNING
+t:     187413 job    94 on # 0 of server xlarge COMPLETED
+t:     187423 job    97 on # 0 of server xlarge COMPLETED
+t:     187423 job   101 on # 0 of server xlarge RUNNING
+t:     187423 job   102 on # 0 of server xlarge RUNNING
+t:     187486 job   102 on # 0 of server xlarge COMPLETED
+t:     187486 job   103 on # 0 of server xlarge RUNNING
+t:     187697 job   100 on # 0 of server xlarge COMPLETED
+t:     187697 job   104 on # 0 of server xlarge RUNNING
+t:     188049 job   104 on # 0 of server xlarge COMPLETED
+t:     188049 job   105 on # 0 of server xlarge RUNNING
+t:     188217 job   105 on # 0 of server xlarge COMPLETED
+t:     192466 job    96 on # 0 of server xlarge COMPLETED
+t:     192466 job   106 on # 0 of server xlarge RUNNING
+t:     192484 job   106 on # 0 of server xlarge COMPLETED
+t:     192484 job   107 on # 0 of server xlarge RUNNING
+t:     192529 job   107 on # 0 of server xlarge COMPLETED
+t:     192529 job   108 on # 0 of server xlarge RUNNING
+t:     192627 job   108 on # 0 of server xlarge COMPLETED
+t:     197144 job   101 on # 0 of server xlarge COMPLETED
+t:     203612 job    93 on # 0 of server xlarge COMPLETED
+t:     203612 job   109 on # 0 of server xlarge RUNNING
+t:     203612 job   110 on # 0 of server xlarge RUNNING
+t:     204173 job   110 on # 0 of server xlarge COMPLETED
+t:     211897 job   103 on # 0 of server xlarge COMPLETED
+t:     211897 job   111 on # 0 of server xlarge RUNNING
+t:     212061 job   111 on # 0 of server xlarge COMPLETED
+t:     212061 job   112 on # 0 of server xlarge RUNNING
+t:     212137 job   112 on # 0 of server xlarge COMPLETED
+t:     212137 job   113 on # 0 of server xlarge RUNNING
+t:     212155 job   113 on # 0 of server xlarge COMPLETED
+t:     240864 job   109 on # 0 of server xlarge COMPLETED
+t:     240864 job   114 on # 0 of server xlarge RUNNING
+t:     240864 job   115 on # 0 of server xlarge RUNNING
+t:     240864 job   116 on # 0 of server xlarge RUNNING
+t:     240864 job   117 on # 0 of server xlarge RUNNING
+t:     240864 job   118 on # 0 of server xlarge RUNNING
+t:     240881 job   115 on # 0 of server xlarge COMPLETED
+t:     240966 job   117 on # 0 of server xlarge COMPLETED
+t:     241000 job   116 on # 0 of server xlarge COMPLETED
+t:     246967 job   118 on # 0 of server xlarge COMPLETED
+t:     265582 job   114 on # 0 of server xlarge COMPLETED
+t:     265582 job   119 on # 0 of server xlarge RUNNING
+t:     265582 job   120 on # 0 of server xlarge RUNNING
+t:     265582 job   121 on # 0 of server xlarge RUNNING
+t:     265609 job   120 on # 0 of server xlarge COMPLETED
+t:     265609 job   122 on # 0 of server xlarge RUNNING
+t:     265609 job   123 on # 0 of server xlarge RUNNING
+t:     265631 job   122 on # 0 of server xlarge COMPLETED
+t:     265631 job   124 on # 0 of server xlarge RUNNING
+t:     265647 job   123 on # 0 of server xlarge COMPLETED
+t:     265647 job   125 on # 0 of server xlarge RUNNING
+t:     265674 job   125 on # 0 of server xlarge COMPLETED
+t:     265674 job   126 on # 0 of server xlarge RUNNING
+t:     265773 job   124 on # 0 of server xlarge COMPLETED
+t:     266132 job   121 on # 0 of server xlarge COMPLETED
+t:     266291 job   126 on # 0 of server xlarge COMPLETED
+t:     280403 job   119 on # 0 of server xlarge COMPLETED
+t:     280403 job   127 on # 0 of server xlarge RUNNING
+t:     280403 job   128 on # 0 of server xlarge RUNNING
+t:     280403 job   129 on # 0 of server xlarge RUNNING
+t:     280403 job   130 on # 0 of server xlarge RUNNING
+t:     280403 job   131 on # 0 of server xlarge RUNNING
+t:     280403 job   132 on # 0 of server xlarge RUNNING
+t:     280403 job   133 on # 0 of server xlarge RUNNING
+t:     280403 job   134 on # 0 of server xlarge RUNNING
+t:     280405 job   132 on # 0 of server xlarge COMPLETED
+t:     280405 job   135 on # 0 of server xlarge RUNNING
+t:     280420 job   133 on # 0 of server xlarge COMPLETED
+t:     280420 job   136 on # 0 of server xlarge RUNNING
+t:     280422 job   131 on # 0 of server xlarge COMPLETED
+t:     280434 job   135 on # 0 of server xlarge COMPLETED
+t:     280468 job   129 on # 0 of server xlarge COMPLETED
+t:     280468 job   137 on # 0 of server xlarge RUNNING
+t:     280502 job   136 on # 0 of server xlarge COMPLETED
+t:     280506 job   128 on # 0 of server xlarge COMPLETED
+t:     280506 job   138 on # 0 of server xlarge RUNNING
+t:     280506 job   139 on # 0 of server xlarge RUNNING
+t:     280519 job   139 on # 0 of server xlarge COMPLETED
+t:     280519 job   140 on # 0 of server xlarge RUNNING
+t:     280613 job   138 on # 0 of server xlarge COMPLETED
+t:     280613 job   141 on # 0 of server xlarge RUNNING
+t:     280613 job   142 on # 0 of server xlarge RUNNING
+t:     280622 job   142 on # 0 of server xlarge COMPLETED
+t:     280631 job   140 on # 0 of server xlarge COMPLETED
+t:     280631 job   143 on # 0 of server xlarge RUNNING
+t:     280693 job   141 on # 0 of server xlarge COMPLETED
+t:     280693 job   144 on # 0 of server xlarge RUNNING
+t:     280712 job   144 on # 0 of server xlarge COMPLETED
+t:     280712 job   145 on # 0 of server xlarge RUNNING
+t:     280727 job   134 on # 0 of server xlarge COMPLETED
+t:     280737 job   145 on # 0 of server xlarge COMPLETED
+t:     280737 job   146 on # 0 of server xlarge RUNNING
+t:     280742 job   146 on # 0 of server xlarge COMPLETED
+t:     280797 job   143 on # 0 of server xlarge COMPLETED
+t:     280797 job   147 on # 0 of server xlarge RUNNING
+t:     290433 job   130 on # 0 of server xlarge COMPLETED
+t:     290433 job   148 on # 0 of server xlarge RUNNING
+t:     290438 job   148 on # 0 of server xlarge COMPLETED
+t:     290438 job   149 on # 0 of server xlarge RUNNING
+t:     291120 job   149 on # 0 of server xlarge COMPLETED
+t:     291120 job   150 on # 0 of server xlarge RUNNING
+t:     291812 job   150 on # 0 of server xlarge COMPLETED
+t:     291812 job   151 on # 0 of server xlarge RUNNING
+t:     292689 job   151 on # 0 of server xlarge COMPLETED
+t:     292689 job   152 on # 0 of server xlarge RUNNING
+t:     292705 job   152 on # 0 of server xlarge COMPLETED
+t:     292705 job   153 on # 0 of server xlarge RUNNING
+t:     300200 job   153 on # 0 of server xlarge COMPLETED
+t:     300200 job   154 on # 0 of server xlarge RUNNING
+t:     301098 job   154 on # 0 of server xlarge COMPLETED
+t:     301098 job   155 on # 0 of server xlarge RUNNING
+t:     301129 job   155 on # 0 of server xlarge COMPLETED
+t:     301129 job   156 on # 0 of server xlarge RUNNING
+t:     301141 job   156 on # 0 of server xlarge COMPLETED
+t:     301141 job   157 on # 0 of server xlarge RUNNING
+t:     301270 job   157 on # 0 of server xlarge COMPLETED
+t:     301270 job   158 on # 0 of server xlarge RUNNING
+t:     301274 job   158 on # 0 of server xlarge COMPLETED
+t:     301274 job   159 on # 0 of server xlarge RUNNING
+t:     301657 job   159 on # 0 of server xlarge COMPLETED
+t:     301657 job   160 on # 0 of server xlarge RUNNING
+t:     301765 job   160 on # 0 of server xlarge COMPLETED
+t:     303547 job   137 on # 0 of server xlarge COMPLETED
+t:     303547 job   161 on # 0 of server xlarge RUNNING
+t:     303547 job   162 on # 0 of server xlarge RUNNING
+t:     303720 job   162 on # 0 of server xlarge COMPLETED
+t:     303720 job   163 on # 0 of server xlarge RUNNING
+t:     304207 job   163 on # 0 of server xlarge COMPLETED
+t:     304207 job   164 on # 0 of server xlarge RUNNING
+t:     304234 job   164 on # 0 of server xlarge COMPLETED
+t:     318442 job   147 on # 0 of server xlarge COMPLETED
+t:     320140 job   127 on # 0 of server xlarge COMPLETED
+t:     320140 job   165 on # 0 of server xlarge RUNNING
+t:     320140 job   166 on # 0 of server xlarge RUNNING
+t:     320140 job   167 on # 0 of server xlarge RUNNING
+t:     320140 job   168 on # 0 of server xlarge RUNNING
+t:     320140 job   169 on # 0 of server xlarge RUNNING
+t:     320147 job   167 on # 0 of server xlarge COMPLETED
+t:     320147 job   170 on # 0 of server xlarge RUNNING
+t:     320150 job   170 on # 0 of server xlarge COMPLETED
+t:     320150 job   171 on # 0 of server xlarge RUNNING
+t:     320160 job   169 on # 0 of server xlarge COMPLETED
+t:     320160 job   172 on # 0 of server xlarge RUNNING
+t:     320164 job   171 on # 0 of server xlarge COMPLETED
+t:     320167 job   168 on # 0 of server xlarge COMPLETED
+t:     320168 job   166 on # 0 of server xlarge COMPLETED
+t:     320237 job   172 on # 0 of server xlarge COMPLETED
+t:     335908 job   161 on # 0 of server xlarge COMPLETED
+t:     343747 job   165 on # 0 of server xlarge COMPLETED
+t:     343747 job   173 on # 0 of server xlarge RUNNING
+t:     343747 job   174 on # 0 of server xlarge RUNNING
+t:     344332 job   174 on # 0 of server xlarge COMPLETED
+t:     344332 job   175 on # 0 of server xlarge RUNNING
+t:     383824 job   173 on # 0 of server xlarge COMPLETED
+t:     383824 job   176 on # 0 of server xlarge RUNNING
+t:     383824 job   177 on # 0 of server xlarge RUNNING
+t:     383824 job   178 on # 0 of server xlarge RUNNING
+t:     383824 job   179 on # 0 of server xlarge RUNNING
+t:     383824 job   180 on # 0 of server xlarge RUNNING
+t:     383824 job   181 on # 0 of server xlarge RUNNING
+t:     383824 job   182 on # 0 of server xlarge RUNNING
+t:     383824 job   183 on # 0 of server xlarge RUNNING
+t:     383824 job   184 on # 0 of server xlarge RUNNING
+t:     383845 job   179 on # 0 of server xlarge COMPLETED
+t:     383845 job   185 on # 0 of server xlarge RUNNING
+t:     383846 job   183 on # 0 of server xlarge COMPLETED
+t:     383846 job   186 on # 0 of server xlarge RUNNING
+t:     383850 job   182 on # 0 of server xlarge COMPLETED
+t:     383850 job   187 on # 0 of server xlarge RUNNING
+t:     383873 job   176 on # 0 of server xlarge COMPLETED
+t:     383873 job   187 on # 0 of server xlarge COMPLETED
+t:     383873 job   188 on # 0 of server xlarge RUNNING
+t:     383885 job   188 on # 0 of server xlarge COMPLETED
+t:     383885 job   189 on # 0 of server xlarge RUNNING
+t:     383901 job   186 on # 0 of server xlarge COMPLETED
+t:     383912 job   178 on # 0 of server xlarge COMPLETED
+t:     383912 job   190 on # 0 of server xlarge RUNNING
+t:     383917 job   181 on # 0 of server xlarge COMPLETED
+t:     383920 job   189 on # 0 of server xlarge COMPLETED
+t:     383947 job   185 on # 0 of server xlarge COMPLETED
+t:     384153 job   184 on # 0 of server xlarge COMPLETED
+t:     384210 job   180 on # 0 of server xlarge COMPLETED
+t:     384323 job   177 on # 0 of server xlarge COMPLETED
+t:     384636 job   190 on # 0 of server xlarge COMPLETED
+t:     384951 job   175 on # 0 of server xlarge COMPLETED
+t:     384951 job   191 on # 0 of server xlarge RUNNING
+t:     385025 job   191 on # 0 of server xlarge COMPLETED
+t:     385025 job   192 on # 0 of server xlarge RUNNING
+t:     389787 job   192 on # 0 of server xlarge COMPLETED
+t:     389787 job   193 on # 0 of server xlarge RUNNING
+t:     389878 job   193 on # 0 of server xlarge COMPLETED
+t:     389878 job   194 on # 0 of server xlarge RUNNING
+t:     389882 job   194 on # 0 of server xlarge COMPLETED
+t:     389882 job   195 on # 0 of server xlarge RUNNING
+t:     389882 job   196 on # 0 of server xlarge RUNNING
+t:     389907 job   195 on # 0 of server xlarge COMPLETED
+t:     390605 job   196 on # 0 of server xlarge COMPLETED
+t:     390605 job   197 on # 0 of server xlarge RUNNING
+t:     408285 job   197 on # 0 of server xlarge COMPLETED
+t:     408285 job   198 on # 0 of server xlarge RUNNING
+t:     408285 job   199 on # 0 of server xlarge RUNNING
+t:     408285 job   200 on # 0 of server xlarge RUNNING
+t:     408307 job   200 on # 0 of server xlarge COMPLETED
+t:     408444 job   199 on # 0 of server xlarge COMPLETED
+t:     408444 job   201 on # 0 of server xlarge RUNNING
+t:     408487 job   201 on # 0 of server xlarge COMPLETED
+t:     408682 job   198 on # 0 of server xlarge COMPLETED
+t:     408682 job   202 on # 0 of server xlarge RUNNING
+t:     408742 job   202 on # 0 of server xlarge COMPLETED
+t:     408742 job   203 on # 0 of server xlarge RUNNING
+t:     408742 job   204 on # 0 of server xlarge RUNNING
+t:     408742 job   205 on # 0 of server xlarge RUNNING
+t:     408762 job   205 on # 0 of server xlarge COMPLETED
+t:     408918 job   203 on # 0 of server xlarge COMPLETED
+t:     409083 job   204 on # 0 of server xlarge COMPLETED
+t:     409083 job   206 on # 0 of server xlarge RUNNING
+t:     451443 job   206 on # 0 of server xlarge COMPLETED
+t:     451443 job   207 on # 0 of server xlarge RUNNING
+t:     451472 job   207 on # 0 of server xlarge COMPLETED
+t:     451472 job   208 on # 0 of server xlarge RUNNING
+t:     452324 job   208 on # 0 of server xlarge COMPLETED
+t:     452324 job   209 on # 0 of server xlarge RUNNING
+t:     452350 job   209 on # 0 of server xlarge COMPLETED
+t:     452350 job   210 on # 0 of server xlarge RUNNING
+t:     452364 job   210 on # 0 of server xlarge COMPLETED
+t:     452364 job   211 on # 0 of server xlarge RUNNING
+t:     452367 job   211 on # 0 of server xlarge COMPLETED
+t:     452367 job   212 on # 0 of server xlarge RUNNING
+t:     452367 job   213 on # 0 of server xlarge RUNNING
+t:     452541 job   212 on # 0 of server xlarge COMPLETED
+t:     452541 job   214 on # 0 of server xlarge RUNNING
+t:     452585 job   214 on # 0 of server xlarge COMPLETED
+t:     452585 job   215 on # 0 of server xlarge RUNNING
+t:     453480 job   215 on # 0 of server xlarge COMPLETED
+t:     453480 job   216 on # 0 of server xlarge RUNNING
+t:     453480 job   217 on # 0 of server xlarge RUNNING
+t:     453505 job   216 on # 0 of server xlarge COMPLETED
+t:     453505 job   218 on # 0 of server xlarge RUNNING
+t:     453505 job   219 on # 0 of server xlarge RUNNING
+t:     453528 job   218 on # 0 of server xlarge COMPLETED
+t:     453619 job   217 on # 0 of server xlarge COMPLETED
+t:     488559 job   213 on # 0 of server xlarge COMPLETED
+t:     495642 job   219 on # 0 of server xlarge COMPLETED
+t:     495642 job   220 on # 0 of server xlarge RUNNING
+t:     495722 job   220 on # 0 of server xlarge COMPLETED
+t:     495722 job   221 on # 0 of server xlarge RUNNING
+t:     495732 job   221 on # 0 of server xlarge COMPLETED
+t:     495732 job   222 on # 0 of server xlarge RUNNING
+t:     495875 job   222 on # 0 of server xlarge COMPLETED
+t:     495875 job   223 on # 0 of server xlarge RUNNING
+t:     496651 job   223 on # 0 of server xlarge COMPLETED
+t:     496651 job   224 on # 0 of server xlarge RUNNING
+t:     496816 job   224 on # 0 of server xlarge COMPLETED
+t:     496816 job   225 on # 0 of server xlarge RUNNING
+t:     496844 job   225 on # 0 of server xlarge COMPLETED
+t:     496844 job   226 on # 0 of server xlarge RUNNING
+t:     496844 job   227 on # 0 of server xlarge RUNNING
+t:     496864 job   227 on # 0 of server xlarge COMPLETED
+t:     496864 job   228 on # 0 of server xlarge RUNNING
+t:     496892 job   228 on # 0 of server xlarge COMPLETED
+t:     496892 job   229 on # 0 of server xlarge RUNNING
+t:     496919 job   229 on # 0 of server xlarge COMPLETED
+t:     496919 job   230 on # 0 of server xlarge RUNNING
+t:     497728 job   230 on # 0 of server xlarge COMPLETED
+t:     513112 job   226 on # 0 of server xlarge COMPLETED
+t:     513112 job   231 on # 0 of server xlarge RUNNING
+t:     513826 job   231 on # 0 of server xlarge COMPLETED
+t:     513826 job   232 on # 0 of server xlarge RUNNING
+t:     513845 job   232 on # 0 of server xlarge COMPLETED
+t:     513845 job   233 on # 0 of server xlarge RUNNING
+t:     513961 job   233 on # 0 of server xlarge COMPLETED
+t:     513961 job   234 on # 0 of server xlarge RUNNING
+t:     513961 job   235 on # 0 of server xlarge RUNNING
+t:     514043 job   235 on # 0 of server xlarge COMPLETED
+t:     514088 job   234 on # 0 of server xlarge COMPLETED
+t:     514088 job   236 on # 0 of server xlarge RUNNING
+t:     514134 job   236 on # 0 of server xlarge COMPLETED
+t:     514134 job   237 on # 0 of server xlarge RUNNING
+t:     514154 job   237 on # 0 of server xlarge COMPLETED
+t:     514154 job   238 on # 0 of server xlarge RUNNING
+t:     514173 job   238 on # 0 of server xlarge COMPLETED
+t:     514173 job   239 on # 0 of server xlarge RUNNING
+t:     514173 job   240 on # 0 of server xlarge RUNNING
+t:     514210 job   240 on # 0 of server xlarge COMPLETED
+t:     514210 job   241 on # 0 of server xlarge RUNNING
+t:     514215 job   239 on # 0 of server xlarge COMPLETED
+t:     514311 job   241 on # 0 of server xlarge COMPLETED
+t:     514311 job   242 on # 0 of server xlarge RUNNING
+t:     522436 job   242 on # 0 of server xlarge COMPLETED
+t:     522436 job   243 on # 0 of server xlarge RUNNING
+t:     523266 job   243 on # 0 of server xlarge COMPLETED
+t:     523266 job   244 on # 0 of server xlarge RUNNING
+t:     523269 job   244 on # 0 of server xlarge COMPLETED
+t:     523269 job   245 on # 0 of server xlarge RUNNING
+t:     523269 job   246 on # 0 of server xlarge RUNNING
+t:     523292 job   246 on # 0 of server xlarge COMPLETED
+t:     523381 job   245 on # 0 of server xlarge COMPLETED
+t:     523381 job   247 on # 0 of server xlarge RUNNING
+t:     523381 job   248 on # 0 of server xlarge RUNNING
+t:     523381 job   249 on # 0 of server xlarge RUNNING
+t:     523383 job   247 on # 0 of server xlarge COMPLETED
+t:     523389 job   249 on # 0 of server xlarge COMPLETED
+t:     523389 job   250 on # 0 of server xlarge RUNNING
+t:     523429 job   248 on # 0 of server xlarge COMPLETED
+t:     523470 job   250 on # 0 of server xlarge COMPLETED
+t:     523470 job   251 on # 0 of server xlarge RUNNING
+t:     523545 job   251 on # 0 of server xlarge COMPLETED
+t:     523545 job   252 on # 0 of server xlarge RUNNING
+t:     523674 job   252 on # 0 of server xlarge COMPLETED
+t:     523674 job   253 on # 0 of server xlarge RUNNING
+t:     523681 job   253 on # 0 of server xlarge COMPLETED
+t:     523681 job   254 on # 0 of server xlarge RUNNING
+t:     523849 job   254 on # 0 of server xlarge COMPLETED
+t:     523849 job   255 on # 0 of server xlarge RUNNING
+t:     523872 job   255 on # 0 of server xlarge COMPLETED
+t:     523872 job   256 on # 0 of server xlarge RUNNING
+t:     523872 job   257 on # 0 of server xlarge RUNNING
+t:     524038 job   256 on # 0 of server xlarge COMPLETED
+t:     524038 job   258 on # 0 of server xlarge RUNNING
+t:     524143 job   258 on # 0 of server xlarge COMPLETED
+t:     524143 job   259 on # 0 of server xlarge RUNNING
+t:     524263 job   259 on # 0 of server xlarge COMPLETED
+t:     547937 job   257 on # 0 of server xlarge COMPLETED
+t:     547937 job   260 on # 0 of server xlarge RUNNING
+t:     548001 job   260 on # 0 of server xlarge COMPLETED
+t:     548001 job   261 on # 0 of server xlarge RUNNING
+t:     548001 job   262 on # 0 of server xlarge RUNNING
+t:     548001 job   263 on # 0 of server xlarge RUNNING
+t:     548026 job   261 on # 0 of server xlarge COMPLETED
+t:     548026 job   264 on # 0 of server xlarge RUNNING
+t:     548026 job   265 on # 0 of server xlarge RUNNING
+t:     548041 job   265 on # 0 of server xlarge COMPLETED
+t:     548811 job   263 on # 0 of server xlarge COMPLETED
+t:     548837 job   264 on # 0 of server xlarge COMPLETED
+t:     578225 job   262 on # 0 of server xlarge COMPLETED
+t:     578225 job   266 on # 0 of server xlarge RUNNING
+t:     578288 job   266 on # 0 of server xlarge COMPLETED
+t:     578288 job   267 on # 0 of server xlarge RUNNING
+t:     578451 job   267 on # 0 of server xlarge COMPLETED
+t:     578451 job   268 on # 0 of server xlarge RUNNING
+t:     578480 job   268 on # 0 of server xlarge COMPLETED
+t:     578480 job   269 on # 0 of server xlarge RUNNING
+t:     578508 job   269 on # 0 of server xlarge COMPLETED
+t:     578508 job   270 on # 0 of server xlarge RUNNING
+t:     578639 job   270 on # 0 of server xlarge COMPLETED
+t:     578639 job   271 on # 0 of server xlarge RUNNING
+t:     578639 job   272 on # 0 of server xlarge RUNNING
+t:     600398 job   271 on # 0 of server xlarge COMPLETED
+t:     600398 job   273 on # 0 of server xlarge RUNNING
+t:     600398 job   274 on # 0 of server xlarge RUNNING
+t:     600417 job   274 on # 0 of server xlarge COMPLETED
+t:     600417 job   275 on # 0 of server xlarge RUNNING
+t:     600417 job   276 on # 0 of server xlarge RUNNING
+t:     600466 job   273 on # 0 of server xlarge COMPLETED
+t:     600572 job   276 on # 0 of server xlarge COMPLETED
+t:     600830 job   275 on # 0 of server xlarge COMPLETED
+t:     600830 job   277 on # 0 of server xlarge RUNNING
+t:     603945 job   272 on # 0 of server xlarge COMPLETED
+t:     620205 job   277 on # 0 of server xlarge COMPLETED
+t:     620205 job   278 on # 0 of server xlarge RUNNING
+t:     620205 job   279 on # 0 of server xlarge RUNNING
+t:     620205 job   280 on # 0 of server xlarge RUNNING
+t:     620222 job   278 on # 0 of server xlarge COMPLETED
+t:     620244 job   279 on # 0 of server xlarge COMPLETED
+t:     620244 job   281 on # 0 of server xlarge RUNNING
+t:     620253 job   281 on # 0 of server xlarge COMPLETED
+t:     620253 job   282 on # 0 of server xlarge RUNNING
+t:     620253 job   283 on # 0 of server xlarge RUNNING
+t:     620657 job   280 on # 0 of server xlarge COMPLETED
+t:     621152 job   283 on # 0 of server xlarge COMPLETED
+t:     660124 job   282 on # 0 of server xlarge COMPLETED
+t:     660124 job   284 on # 0 of server xlarge RUNNING
+t:     660283 job   284 on # 0 of server xlarge COMPLETED
+t:     660283 job   285 on # 0 of server xlarge RUNNING
+t:     660283 job   286 on # 0 of server xlarge RUNNING
+t:     660301 job   285 on # 0 of server xlarge COMPLETED
+t:     660301 job   287 on # 0 of server xlarge RUNNING
+t:     660318 job   287 on # 0 of server xlarge COMPLETED
+t:     660318 job   288 on # 0 of server xlarge RUNNING
+t:     660318 job   289 on # 0 of server xlarge RUNNING
+t:     660337 job   288 on # 0 of server xlarge COMPLETED
+t:     660337 job   290 on # 0 of server xlarge RUNNING
+t:     660400 job   290 on # 0 of server xlarge COMPLETED
+t:     660819 job   286 on # 0 of server xlarge COMPLETED
+t:     660819 job   291 on # 0 of server xlarge RUNNING
+t:     660936 job   291 on # 0 of server xlarge COMPLETED
+t:     660936 job   292 on # 0 of server xlarge RUNNING
+t:     660950 job   292 on # 0 of server xlarge COMPLETED
+t:     660950 job   293 on # 0 of server xlarge RUNNING
+t:     687481 job   289 on # 0 of server xlarge COMPLETED
+t:     693069 job   293 on # 0 of server xlarge COMPLETED
+t:     693069 job   294 on # 0 of server xlarge RUNNING
+t:     693076 job   294 on # 0 of server xlarge COMPLETED
+t:     693076 job   295 on # 0 of server xlarge RUNNING
+t:     693080 job   295 on # 0 of server xlarge COMPLETED
+t:     693080 job   296 on # 0 of server xlarge RUNNING
+t:     693435 job   296 on # 0 of server xlarge COMPLETED
+t:     693435 job   297 on # 0 of server xlarge RUNNING
+t:     693435 job   298 on # 0 of server xlarge RUNNING
+t:     693556 job   297 on # 0 of server xlarge COMPLETED
+t:     693556 job   299 on # 0 of server xlarge RUNNING
+t:     693556 job   300 on # 0 of server xlarge RUNNING
+t:     693560 job   300 on # 0 of server xlarge COMPLETED
+t:     693560 job   301 on # 0 of server xlarge RUNNING
+t:     693584 job   301 on # 0 of server xlarge COMPLETED
+t:     693584 job   302 on # 0 of server xlarge RUNNING
+t:     693584 job   303 on # 0 of server xlarge RUNNING
+t:     693593 job   302 on # 0 of server xlarge COMPLETED
+t:     693593 job   304 on # 0 of server xlarge RUNNING
+t:     693609 job   303 on # 0 of server xlarge COMPLETED
+t:     693654 job   299 on # 0 of server xlarge COMPLETED
+t:     693711 job   304 on # 0 of server xlarge COMPLETED
+t:     693711 job   305 on # 0 of server xlarge RUNNING
+t:     693715 job   305 on # 0 of server xlarge COMPLETED
+t:     693715 job   306 on # 0 of server xlarge RUNNING
+t:     694072 job   298 on # 0 of server xlarge COMPLETED
+t:     732422 job   306 on # 0 of server xlarge COMPLETED
+t:     732422 job   307 on # 0 of server xlarge RUNNING
+t:     732547 job   307 on # 0 of server xlarge COMPLETED
+t:     732547 job   308 on # 0 of server xlarge RUNNING
+t:     732547 job   309 on # 0 of server xlarge RUNNING
+t:     732551 job   308 on # 0 of server xlarge COMPLETED
+t:     732551 job   310 on # 0 of server xlarge RUNNING
+t:     732556 job   310 on # 0 of server xlarge COMPLETED
+t:     732556 job   311 on # 0 of server xlarge RUNNING
+t:     732607 job   311 on # 0 of server xlarge COMPLETED
+t:     732607 job   312 on # 0 of server xlarge RUNNING
+t:     732616 job   312 on # 0 of server xlarge COMPLETED
+t:     732616 job   313 on # 0 of server xlarge RUNNING
+t:     732644 job   313 on # 0 of server xlarge COMPLETED
+t:     732988 job   309 on # 0 of server xlarge COMPLETED
+t:     732988 job   314 on # 0 of server xlarge RUNNING
+t:     733679 job   314 on # 0 of server xlarge COMPLETED
+t:     733679 job   315 on # 0 of server xlarge RUNNING
+t:     740243 job   315 on # 0 of server xlarge COMPLETED
+t:     740243 job   316 on # 0 of server xlarge RUNNING
+t:     740618 job   316 on # 0 of server xlarge COMPLETED
+t:     740618 job   317 on # 0 of server xlarge RUNNING
+t:     740618 job   318 on # 0 of server xlarge RUNNING
+t:     740699 job   317 on # 0 of server xlarge COMPLETED
+t:     740699 job   319 on # 0 of server xlarge RUNNING
+t:     740699 job   320 on # 0 of server xlarge RUNNING
+t:     740791 job   320 on # 0 of server xlarge COMPLETED
+t:     741119 job   319 on # 0 of server xlarge COMPLETED
+t:     741119 job   321 on # 0 of server xlarge RUNNING
+t:     741429 job   318 on # 0 of server xlarge COMPLETED
+t:     744086 job   321 on # 0 of server xlarge COMPLETED
+t:     744086 job   322 on # 0 of server xlarge RUNNING
+t:     744086 job   323 on # 0 of server xlarge RUNNING
+t:     744086 job   324 on # 0 of server xlarge RUNNING
+t:     744109 job   324 on # 0 of server xlarge COMPLETED
+t:     744112 job   323 on # 0 of server xlarge COMPLETED
+t:     744154 job   322 on # 0 of server xlarge COMPLETED
+t:     744154 job   325 on # 0 of server xlarge RUNNING
+t:     784806 job   325 on # 0 of server xlarge COMPLETED
+t:     784806 job   326 on # 0 of server xlarge RUNNING
+t:     784806 job   327 on # 0 of server xlarge RUNNING
+t:     784806 job   328 on # 0 of server xlarge RUNNING
+t:     784806 job   329 on # 0 of server xlarge RUNNING
+t:     784806 job   330 on # 0 of server xlarge RUNNING
+t:     784806 job   331 on # 0 of server xlarge RUNNING
+t:     784806 job   332 on # 0 of server xlarge RUNNING
+t:     784834 job   328 on # 0 of server xlarge COMPLETED
+t:     784834 job   333 on # 0 of server xlarge RUNNING
+t:     784843 job   331 on # 0 of server xlarge COMPLETED
+t:     784843 job   334 on # 0 of server xlarge RUNNING
+t:     784843 job   335 on # 0 of server xlarge RUNNING
+t:     784852 job   327 on # 0 of server xlarge COMPLETED
+t:     784852 job   336 on # 0 of server xlarge RUNNING
+t:     784854 job   333 on # 0 of server xlarge COMPLETED
+t:     784854 job   337 on # 0 of server xlarge RUNNING
+t:     784911 job   329 on # 0 of server xlarge COMPLETED
+t:     784911 job   338 on # 0 of server xlarge RUNNING
+t:     784911 job   339 on # 0 of server xlarge RUNNING
+t:     784911 job   340 on # 0 of server xlarge RUNNING
+t:     784911 job   341 on # 0 of server xlarge RUNNING
+t:     784911 job   342 on # 0 of server xlarge RUNNING
+t:     784911 job   336 on # 0 of server xlarge COMPLETED
+t:     784914 job   337 on # 0 of server xlarge COMPLETED
+t:     784920 job   340 on # 0 of server xlarge COMPLETED
+t:     784924 job   339 on # 0 of server xlarge COMPLETED
+t:     784959 job   335 on # 0 of server xlarge COMPLETED
+t:     784969 job   332 on # 0 of server xlarge COMPLETED
+t:     784988 job   338 on # 0 of server xlarge COMPLETED
+t:     784988 job   343 on # 0 of server xlarge RUNNING
+t:     785055 job   342 on # 0 of server xlarge COMPLETED
+t:     785180 job   330 on # 0 of server xlarge COMPLETED
+t:     785376 job   341 on # 0 of server xlarge COMPLETED
+t:     785431 job   334 on # 0 of server xlarge COMPLETED
+t:     785471 job   326 on # 0 of server xlarge COMPLETED
+t:     814583 job   343 on # 0 of server xlarge COMPLETED
+t:     814583 job   344 on # 0 of server xlarge RUNNING
+t:     814583 job   345 on # 0 of server xlarge RUNNING
+t:     814583 job   346 on # 0 of server xlarge RUNNING
+t:     814657 job   345 on # 0 of server xlarge COMPLETED
+t:     814657 job   347 on # 0 of server xlarge RUNNING
+t:     814657 job   348 on # 0 of server xlarge RUNNING
+t:     814778 job   348 on # 0 of server xlarge COMPLETED
+t:     814778 job   349 on # 0 of server xlarge RUNNING
+t:     814803 job   349 on # 0 of server xlarge COMPLETED
+t:     814803 job   350 on # 0 of server xlarge RUNNING
+t:     814853 job   350 on # 0 of server xlarge COMPLETED
+t:     815205 job   347 on # 0 of server xlarge COMPLETED
+t:     816418 job   346 on # 0 of server xlarge COMPLETED
+t:     829668 job   344 on # 0 of server xlarge COMPLETED
+t:     829668 job   351 on # 0 of server xlarge RUNNING
+t:     829668 job   352 on # 0 of server xlarge RUNNING
+t:     829668 job   353 on # 0 of server xlarge RUNNING
+t:     829668 job   354 on # 0 of server xlarge RUNNING
+t:     829672 job   352 on # 0 of server xlarge COMPLETED
+t:     829683 job   354 on # 0 of server xlarge COMPLETED
+t:     829683 job   355 on # 0 of server xlarge RUNNING
+t:     829686 job   353 on # 0 of server xlarge COMPLETED
+t:     829686 job   356 on # 0 of server xlarge RUNNING
+t:     829838 job   356 on # 0 of server xlarge COMPLETED
+t:     829838 job   357 on # 0 of server xlarge RUNNING
+t:     829838 job   358 on # 0 of server xlarge RUNNING
+t:     829841 job   358 on # 0 of server xlarge COMPLETED
+t:     829841 job   359 on # 0 of server xlarge RUNNING
+t:     829966 job   359 on # 0 of server xlarge COMPLETED
+t:     829966 job   360 on # 0 of server xlarge RUNNING
+t:     830564 job   360 on # 0 of server xlarge COMPLETED
+t:     830607 job   357 on # 0 of server xlarge COMPLETED
+t:     857977 job   355 on # 0 of server xlarge COMPLETED
+t:     869077 job   351 on # 0 of server xlarge COMPLETED
+t:     869077 job   361 on # 0 of server xlarge RUNNING
+t:     869077 job   362 on # 0 of server xlarge RUNNING
+t:     869077 job   363 on # 0 of server xlarge RUNNING
+t:     869077 job   364 on # 0 of server xlarge RUNNING
+t:     869086 job   363 on # 0 of server xlarge COMPLETED
+t:     869086 job   365 on # 0 of server xlarge RUNNING
+t:     869107 job   365 on # 0 of server xlarge COMPLETED
+t:     869107 job   366 on # 0 of server xlarge RUNNING
+t:     869126 job   364 on # 0 of server xlarge COMPLETED
+t:     869126 job   367 on # 0 of server xlarge RUNNING
+t:     869160 job   367 on # 0 of server xlarge COMPLETED
+t:     869459 job   366 on # 0 of server xlarge COMPLETED
+t:     869459 job   368 on # 0 of server xlarge RUNNING
+t:     869476 job   368 on # 0 of server xlarge COMPLETED
+t:     869476 job   369 on # 0 of server xlarge RUNNING
+t:     869476 job   370 on # 0 of server xlarge RUNNING
+t:     869483 job   369 on # 0 of server xlarge COMPLETED
+t:     869483 job   371 on # 0 of server xlarge RUNNING
+t:     869542 job   371 on # 0 of server xlarge COMPLETED
+t:     869542 job   372 on # 0 of server xlarge RUNNING
+t:     869564 job   372 on # 0 of server xlarge COMPLETED
+t:     869564 job   373 on # 0 of server xlarge RUNNING
+t:     869639 job   370 on # 0 of server xlarge COMPLETED
+t:     869875 job   362 on # 0 of server xlarge COMPLETED
+t:     870194 job   373 on # 0 of server xlarge COMPLETED
+t:     896171 job   361 on # 0 of server xlarge COMPLETED
+t:     896171 job   374 on # 0 of server xlarge RUNNING
+t:     896171 job   375 on # 0 of server xlarge RUNNING
+t:     896171 job   376 on # 0 of server xlarge RUNNING
+t:     896171 job   377 on # 0 of server xlarge RUNNING
+t:     896171 job   378 on # 0 of server xlarge RUNNING
+t:     896171 job   379 on # 0 of server xlarge RUNNING
+t:     896171 job   380 on # 0 of server xlarge RUNNING
+t:     896171 job   381 on # 0 of server xlarge RUNNING
+t:     896171 job   382 on # 0 of server xlarge RUNNING
+t:     896171 job   383 on # 0 of server xlarge RUNNING
+t:     896195 job   380 on # 0 of server xlarge COMPLETED
+t:     896232 job   375 on # 0 of server xlarge COMPLETED
+t:     896232 job   384 on # 0 of server xlarge RUNNING
+t:     896242 job   384 on # 0 of server xlarge COMPLETED
+t:     896299 job   382 on # 0 of server xlarge COMPLETED
+t:     896321 job   379 on # 0 of server xlarge COMPLETED
+t:     896543 job   378 on # 0 of server xlarge COMPLETED
+t:     896554 job   377 on # 0 of server xlarge COMPLETED
+t:     896823 job   381 on # 0 of server xlarge COMPLETED
+t:     897039 job   376 on # 0 of server xlarge COMPLETED
+t:     902903 job   374 on # 0 of server xlarge COMPLETED
+t:     933514 job   383 on # 0 of server xlarge COMPLETED
+t:     933514 job   385 on # 0 of server xlarge RUNNING
+t:     958111 job   385 on # 0 of server xlarge COMPLETED
+t:     958111 job   386 on # 0 of server xlarge RUNNING
+t:     958111 job   387 on # 0 of server xlarge RUNNING
+t:     958111 job   388 on # 0 of server xlarge RUNNING
+t:     958111 job   389 on # 0 of server xlarge RUNNING
+t:     958111 job   390 on # 0 of server xlarge RUNNING
+t:     958111 job   391 on # 0 of server xlarge RUNNING
+t:     958111 job   392 on # 0 of server xlarge RUNNING
+t:     958111 job   393 on # 0 of server xlarge RUNNING
+t:     958111 job   394 on # 0 of server xlarge RUNNING
+t:     958111 job   395 on # 0 of server xlarge RUNNING
+t:     958111 job   396 on # 0 of server xlarge RUNNING
+t:     958111 job   397 on # 0 of server xlarge RUNNING
+t:     958115 job   389 on # 0 of server xlarge COMPLETED
+t:     958117 job   386 on # 0 of server xlarge COMPLETED
+t:     958131 job   387 on # 0 of server xlarge COMPLETED
+t:     958210 job   391 on # 0 of server xlarge COMPLETED
+t:     958214 job   388 on # 0 of server xlarge COMPLETED
+t:     958231 job   395 on # 0 of server xlarge COMPLETED
+t:     958231 job   398 on # 0 of server xlarge RUNNING
+t:     958243 job   396 on # 0 of server xlarge COMPLETED
+t:     958243 job   399 on # 0 of server xlarge RUNNING
+t:     958428 job   393 on # 0 of server xlarge COMPLETED
+t:     958428 job   400 on # 0 of server xlarge RUNNING
+t:     958438 job   394 on # 0 of server xlarge COMPLETED
+t:     958438 job   401 on # 0 of server xlarge RUNNING
+t:     958462 job   400 on # 0 of server xlarge COMPLETED
+t:     958469 job   390 on # 0 of server xlarge COMPLETED
+t:     958469 job   402 on # 0 of server xlarge RUNNING
+t:     958478 job   402 on # 0 of server xlarge COMPLETED
+t:     958478 job   403 on # 0 of server xlarge RUNNING
+t:     958478 job   404 on # 0 of server xlarge RUNNING
+t:     958493 job   404 on # 0 of server xlarge COMPLETED
+t:     958493 job   405 on # 0 of server xlarge RUNNING
+t:     958516 job   397 on # 0 of server xlarge COMPLETED
+t:     958516 job   406 on # 0 of server xlarge RUNNING
+t:     958524 job   406 on # 0 of server xlarge COMPLETED
+t:     958524 job   407 on # 0 of server xlarge RUNNING
+t:     958529 job   401 on # 0 of server xlarge COMPLETED
+t:     958529 job   408 on # 0 of server xlarge RUNNING
+t:     958529 job   409 on # 0 of server xlarge RUNNING
+t:     958530 job   405 on # 0 of server xlarge COMPLETED
+t:     958530 job   410 on # 0 of server xlarge RUNNING
+t:     958531 job   407 on # 0 of server xlarge COMPLETED
+t:     958531 job   411 on # 0 of server xlarge RUNNING
+t:     958548 job   408 on # 0 of server xlarge COMPLETED
+t:     958548 job   412 on # 0 of server xlarge RUNNING
+t:     958552 job   409 on # 0 of server xlarge COMPLETED
+t:     958568 job   410 on # 0 of server xlarge COMPLETED
+t:     958595 job   392 on # 0 of server xlarge COMPLETED
+t:     958640 job   403 on # 0 of server xlarge COMPLETED
+t:     958660 job   412 on # 0 of server xlarge COMPLETED
+t:     958683 job   411 on # 0 of server xlarge COMPLETED
+t:     958984 job   399 on # 0 of server xlarge COMPLETED
+t:     964555 job   398 on # 0 of server xlarge COMPLETED
+t:     964555 job   413 on # 0 of server xlarge RUNNING
+t:     964555 job   414 on # 0 of server xlarge RUNNING
+t:     964555 job   415 on # 0 of server xlarge RUNNING
+t:     964556 job   415 on # 0 of server xlarge COMPLETED
+t:     964703 job   414 on # 0 of server xlarge COMPLETED
+t:     992877 job   413 on # 0 of server xlarge COMPLETED
+t:     992877 job   416 on # 0 of server xlarge RUNNING
+t:     992877 job   417 on # 0 of server xlarge RUNNING
+t:     992877 job   418 on # 0 of server xlarge RUNNING
+t:     992901 job   418 on # 0 of server xlarge COMPLETED
+t:     992901 job   419 on # 0 of server xlarge RUNNING
+t:     992907 job   417 on # 0 of server xlarge COMPLETED
+t:     993039 job   419 on # 0 of server xlarge COMPLETED
+t:     993039 job   420 on # 0 of server xlarge RUNNING
+t:     993205 job   420 on # 0 of server xlarge COMPLETED
+t:     993205 job   421 on # 0 of server xlarge RUNNING
+t:     993205 job   422 on # 0 of server xlarge RUNNING
+t:     993222 job   422 on # 0 of server xlarge COMPLETED
+t:    1015708 job   416 on # 0 of server xlarge COMPLETED
+t:    1015708 job   423 on # 0 of server xlarge RUNNING
+t:    1015708 job   424 on # 0 of server xlarge RUNNING
+t:    1015708 job   425 on # 0 of server xlarge RUNNING
+t:    1015715 job   424 on # 0 of server xlarge COMPLETED
+t:    1015715 job   426 on # 0 of server xlarge RUNNING
+t:    1015731 job   425 on # 0 of server xlarge COMPLETED
+t:    1015731 job   427 on # 0 of server xlarge RUNNING
+t:    1015731 job   428 on # 0 of server xlarge RUNNING
+t:    1015733 job   427 on # 0 of server xlarge COMPLETED
+t:    1015733 job   429 on # 0 of server xlarge RUNNING
+t:    1015744 job   429 on # 0 of server xlarge COMPLETED
+t:    1015891 job   428 on # 0 of server xlarge COMPLETED
+t:    1016351 job   426 on # 0 of server xlarge COMPLETED
+t:    1016363 job   421 on # 0 of server xlarge COMPLETED
+t:    1029367 job   423 on # 0 of server xlarge COMPLETED
+t:    1029367 job   430 on # 0 of server xlarge RUNNING
+t:    1029367 job   431 on # 0 of server xlarge RUNNING
+t:    1029367 job   432 on # 0 of server xlarge RUNNING
+t:    1029367 job   433 on # 0 of server xlarge RUNNING
+t:    1029367 job   434 on # 0 of server xlarge RUNNING
+t:    1029367 job   435 on # 0 of server xlarge RUNNING
+t:    1029367 job   436 on # 0 of server xlarge RUNNING
+t:    1029367 job   437 on # 0 of server xlarge RUNNING
+t:    1029367 job   438 on # 0 of server xlarge RUNNING
+t:    1029367 job   439 on # 0 of server xlarge RUNNING
+t:    1029369 job   436 on # 0 of server xlarge COMPLETED
+t:    1029377 job   432 on # 0 of server xlarge COMPLETED
+t:    1029377 job   440 on # 0 of server xlarge RUNNING
+t:    1029377 job   439 on # 0 of server xlarge COMPLETED
+t:    1029377 job   441 on # 0 of server xlarge RUNNING
+t:    1029383 job   437 on # 0 of server xlarge COMPLETED
+t:    1029383 job   442 on # 0 of server xlarge RUNNING
+t:    1029383 job   440 on # 0 of server xlarge COMPLETED
+t:    1029383 job   443 on # 0 of server xlarge RUNNING
+t:    1029383 job   444 on # 0 of server xlarge RUNNING
+t:    1029383 job   441 on # 0 of server xlarge COMPLETED
+t:    1029383 job   445 on # 0 of server xlarge RUNNING
+t:    1029391 job   442 on # 0 of server xlarge COMPLETED
+t:    1029391 job   446 on # 0 of server xlarge RUNNING
+t:    1029393 job   431 on # 0 of server xlarge COMPLETED
+t:    1029393 job   447 on # 0 of server xlarge RUNNING
+t:    1029393 job   448 on # 0 of server xlarge RUNNING
+t:    1029396 job   438 on # 0 of server xlarge COMPLETED
+t:    1029401 job   447 on # 0 of server xlarge COMPLETED
+t:    1029412 job   443 on # 0 of server xlarge COMPLETED
+t:    1029447 job   435 on # 0 of server xlarge COMPLETED
+t:    1029475 job   433 on # 0 of server xlarge COMPLETED
+t:    1029893 job   448 on # 0 of server xlarge COMPLETED
+t:    1029917 job   445 on # 0 of server xlarge COMPLETED
+t:    1029978 job   446 on # 0 of server xlarge COMPLETED
+t:    1045736 job   430 on # 0 of server xlarge COMPLETED
+t:    1045736 job   449 on # 0 of server xlarge RUNNING
+t:    1045736 job   450 on # 0 of server xlarge RUNNING
+t:    1045766 job   450 on # 0 of server xlarge COMPLETED
+t:    1045766 job   451 on # 0 of server xlarge RUNNING
+t:    1045766 job   452 on # 0 of server xlarge RUNNING
+t:    1045770 job   451 on # 0 of server xlarge COMPLETED
+t:    1045770 job   453 on # 0 of server xlarge RUNNING
+t:    1045778 job   452 on # 0 of server xlarge COMPLETED
+t:    1045778 job   454 on # 0 of server xlarge RUNNING
+t:    1045862 job   454 on # 0 of server xlarge COMPLETED
+t:    1045862 job   455 on # 0 of server xlarge RUNNING
+t:    1045877 job   455 on # 0 of server xlarge COMPLETED
+t:    1046533 job   453 on # 0 of server xlarge COMPLETED
+t:    1046533 job   456 on # 0 of server xlarge RUNNING
+t:    1046561 job   456 on # 0 of server xlarge COMPLETED
+t:    1046561 job   457 on # 0 of server xlarge RUNNING
+t:    1047357 job   457 on # 0 of server xlarge COMPLETED
+t:    1047357 job   458 on # 0 of server xlarge RUNNING
+t:    1047379 job   458 on # 0 of server xlarge COMPLETED
+t:    1047379 job   459 on # 0 of server xlarge RUNNING
+t:    1047379 job   460 on # 0 of server xlarge RUNNING
+t:    1047388 job   459 on # 0 of server xlarge COMPLETED
+t:    1047388 job   461 on # 0 of server xlarge RUNNING
+t:    1047391 job   460 on # 0 of server xlarge COMPLETED
+t:    1047391 job   462 on # 0 of server xlarge RUNNING
+t:    1047406 job   462 on # 0 of server xlarge COMPLETED
+t:    1047406 job   463 on # 0 of server xlarge RUNNING
+t:    1047494 job   463 on # 0 of server xlarge COMPLETED
+t:    1047494 job   464 on # 0 of server xlarge RUNNING
+t:    1047508 job   461 on # 0 of server xlarge COMPLETED
+t:    1047508 job   465 on # 0 of server xlarge RUNNING
+t:    1047509 job   464 on # 0 of server xlarge COMPLETED
+t:    1047509 job   466 on # 0 of server xlarge RUNNING
+t:    1047513 job   465 on # 0 of server xlarge COMPLETED
+t:    1048219 job   466 on # 0 of server xlarge COMPLETED
+t:    1048699 job   434 on # 0 of server xlarge COMPLETED
+t:    1053819 job   444 on # 0 of server xlarge COMPLETED
+t:    1075522 job   449 on # 0 of server xlarge COMPLETED
+t:    1075522 job   467 on # 0 of server xlarge RUNNING
+t:    1076088 job   467 on # 0 of server xlarge COMPLETED
+t:    1076088 job   468 on # 0 of server xlarge RUNNING
+t:    1076088 job   469 on # 0 of server xlarge RUNNING
+t:    1076088 job   470 on # 0 of server xlarge RUNNING
+t:    1076088 job   471 on # 0 of server xlarge RUNNING
+t:    1076088 job   472 on # 0 of server xlarge RUNNING
+t:    1076088 job   473 on # 0 of server xlarge RUNNING
+t:    1076099 job   473 on # 0 of server xlarge COMPLETED
+t:    1076099 job   474 on # 0 of server xlarge RUNNING
+t:    1076102 job   469 on # 0 of server xlarge COMPLETED
+t:    1076102 job   475 on # 0 of server xlarge RUNNING
+t:    1076131 job   472 on # 0 of server xlarge COMPLETED
+t:    1076131 job   476 on # 0 of server xlarge RUNNING
+t:    1076132 job   475 on # 0 of server xlarge COMPLETED
+t:    1076132 job   477 on # 0 of server xlarge RUNNING
+t:    1076134 job   477 on # 0 of server xlarge COMPLETED
+t:    1076214 job   474 on # 0 of server xlarge COMPLETED
+t:    1076226 job   470 on # 0 of server xlarge COMPLETED
+t:    1076293 job   476 on # 0 of server xlarge COMPLETED
+t:    1076465 job   468 on # 0 of server xlarge COMPLETED
+t:    1088682 job   471 on # 0 of server xlarge COMPLETED
+t:    1088682 job   478 on # 0 of server xlarge RUNNING
+t:    1122124 job   478 on # 0 of server xlarge COMPLETED
+t:    1122124 job   479 on # 0 of server xlarge RUNNING
+t:    1122124 job   480 on # 0 of server xlarge RUNNING
+t:    1122124 job   481 on # 0 of server xlarge RUNNING
+t:    1122124 job   482 on # 0 of server xlarge RUNNING
+t:    1122124 job   483 on # 0 of server xlarge RUNNING
+t:    1122124 job   484 on # 0 of server xlarge RUNNING
+t:    1122124 job   485 on # 0 of server xlarge RUNNING
+t:    1122124 job   486 on # 0 of server xlarge RUNNING
+t:    1122124 job   487 on # 0 of server xlarge RUNNING
+t:    1122124 job   488 on # 0 of server xlarge RUNNING
+t:    1122124 job   489 on # 0 of server xlarge RUNNING
+t:    1122127 job   489 on # 0 of server xlarge COMPLETED
+t:    1122147 job   481 on # 0 of server xlarge COMPLETED
+t:    1122151 job   484 on # 0 of server xlarge COMPLETED
+t:    1122152 job   486 on # 0 of server xlarge COMPLETED
+t:    1122185 job   487 on # 0 of server xlarge COMPLETED
+t:    1122185 job   490 on # 0 of server xlarge RUNNING
+t:    1122186 job   488 on # 0 of server xlarge COMPLETED
+t:    1122195 job   490 on # 0 of server xlarge COMPLETED
+t:    1122285 job   480 on # 0 of server xlarge COMPLETED
+t:    1122289 job   483 on # 0 of server xlarge COMPLETED
+t:    1122289 job   491 on # 0 of server xlarge RUNNING
+t:    1122308 job   491 on # 0 of server xlarge COMPLETED
+t:    1122308 job   492 on # 0 of server xlarge RUNNING
+t:    1122403 job   492 on # 0 of server xlarge COMPLETED
+t:    1122403 job   493 on # 0 of server xlarge RUNNING
+t:    1122403 job   494 on # 0 of server xlarge RUNNING
+t:    1122475 job   482 on # 0 of server xlarge COMPLETED
+t:    1122475 job   495 on # 0 of server xlarge RUNNING
+t:    1122780 job   485 on # 0 of server xlarge COMPLETED
+t:    1122785 job   479 on # 0 of server xlarge COMPLETED
+t:    1123243 job   494 on # 0 of server xlarge COMPLETED
+t:    1123243 job   496 on # 0 of server xlarge RUNNING
+t:    1123246 job   496 on # 0 of server xlarge COMPLETED
+t:    1149410 job   495 on # 0 of server xlarge COMPLETED
+t:    1149410 job   497 on # 0 of server xlarge RUNNING
+t:    1149577 job   497 on # 0 of server xlarge COMPLETED
+t:    1149577 job   498 on # 0 of server xlarge RUNNING
+t:    1149577 job   499 on # 0 of server xlarge RUNNING
+t:    1149738 job   499 on # 0 of server xlarge COMPLETED
+t:    1155581 job   493 on # 0 of server xlarge COMPLETED
+t:    1189409 job   498 on # 0 of server xlarge COMPLETED
+t:    1189409 job   500 on # 0 of server xlarge RUNNING
+t:    1189551 job   500 on # 0 of server xlarge COMPLETED
+t:    1189551 job   501 on # 0 of server xlarge RUNNING
+t:    1190391 job   501 on # 0 of server xlarge COMPLETED
+t:    1190391 job   502 on # 0 of server xlarge RUNNING
+t:    1190411 job   502 on # 0 of server xlarge COMPLETED
+t:    1190411 job   503 on # 0 of server xlarge RUNNING
+t:    1190411 job   504 on # 0 of server xlarge RUNNING
+t:    1190590 job   503 on # 0 of server xlarge COMPLETED
+t:    1216043 job   504 on # 0 of server xlarge COMPLETED
+t:    1216043 job   505 on # 0 of server xlarge RUNNING
+t:    1216137 job   505 on # 0 of server xlarge COMPLETED
+t:    1216137 job   506 on # 0 of server xlarge RUNNING
+t:    1229453 job   506 on # 0 of server xlarge COMPLETED
+t:    1229453 job   507 on # 0 of server xlarge RUNNING
+t:    1229453 job   508 on # 0 of server xlarge RUNNING
+t:    1229465 job   508 on # 0 of server xlarge COMPLETED
+t:    1230166 job   507 on # 0 of server xlarge COMPLETED
+t:    1230166 job   509 on # 0 of server xlarge RUNNING
+t:    1230166 job   510 on # 0 of server xlarge RUNNING
+t:    1230166 job   511 on # 0 of server xlarge RUNNING
+t:    1230295 job   510 on # 0 of server xlarge COMPLETED
+t:    1230339 job   509 on # 0 of server xlarge COMPLETED
+t:    1230339 job   512 on # 0 of server xlarge RUNNING
+t:    1230359 job   512 on # 0 of server xlarge COMPLETED
+t:    1230359 job   513 on # 0 of server xlarge RUNNING
+t:    1230800 job   513 on # 0 of server xlarge COMPLETED
+t:    1231060 job   511 on # 0 of server xlarge COMPLETED
+t:    1231060 job   514 on # 0 of server xlarge RUNNING
+t:    1231068 job   514 on # 0 of server xlarge COMPLETED
+t:    1231068 job   515 on # 0 of server xlarge RUNNING
+t:    1231068 job   516 on # 0 of server xlarge RUNNING
+t:    1231068 job   517 on # 0 of server xlarge RUNNING
+t:    1231069 job   515 on # 0 of server xlarge COMPLETED
+t:    1231116 job   516 on # 0 of server xlarge COMPLETED
+t:    1231820 job   517 on # 0 of server xlarge COMPLETED
+t:    1231820 job   518 on # 0 of server xlarge RUNNING
+t:    1231948 job   518 on # 0 of server xlarge COMPLETED
+t:    1231948 job   519 on # 0 of server xlarge RUNNING
+t:    1231975 job   519 on # 0 of server xlarge COMPLETED
+t:    1231975 job   520 on # 0 of server xlarge RUNNING
+t:    1231975 job   521 on # 0 of server xlarge RUNNING
+t:    1231987 job   521 on # 0 of server xlarge COMPLETED
+t:    1231987 job   522 on # 0 of server xlarge RUNNING
+t:    1232026 job   522 on # 0 of server xlarge COMPLETED
+t:    1232026 job   523 on # 0 of server xlarge RUNNING
+t:    1232026 job   524 on # 0 of server xlarge RUNNING
+t:    1232047 job   524 on # 0 of server xlarge COMPLETED
+t:    1232482 job   523 on # 0 of server xlarge COMPLETED
+t:    1232864 job   520 on # 0 of server xlarge COMPLETED
+t:    1232864 job   525 on # 0 of server xlarge RUNNING
+t:    1232893 job   525 on # 0 of server xlarge COMPLETED
+t:    1232893 job   526 on # 0 of server xlarge RUNNING
+t:    1232962 job   526 on # 0 of server xlarge COMPLETED
+t:    1232962 job   527 on # 0 of server xlarge RUNNING
+t:    1232962 job   528 on # 0 of server xlarge RUNNING
+t:    1232983 job   528 on # 0 of server xlarge COMPLETED
+t:    1239032 job   527 on # 0 of server xlarge COMPLETED
+t:    1239032 job   529 on # 0 of server xlarge RUNNING
+t:    1239202 job   529 on # 0 of server xlarge COMPLETED
+t:    1239202 job   530 on # 0 of server xlarge RUNNING
+t:    1239202 job   531 on # 0 of server xlarge RUNNING
+t:    1239224 job   531 on # 0 of server xlarge COMPLETED
+t:    1242930 job   530 on # 0 of server xlarge COMPLETED
+t:    1242930 job   532 on # 0 of server xlarge RUNNING
+t:    1242930 job   533 on # 0 of server xlarge RUNNING
+t:    1243026 job   533 on # 0 of server xlarge COMPLETED
+t:    1243329 job   532 on # 0 of server xlarge COMPLETED
+t:    1243329 job   534 on # 0 of server xlarge RUNNING
+t:    1243329 job   535 on # 0 of server xlarge RUNNING
+t:    1243347 job   535 on # 0 of server xlarge COMPLETED
+t:    1243347 job   536 on # 0 of server xlarge RUNNING
+t:    1244057 job   534 on # 0 of server xlarge COMPLETED
+t:    1253397 job   536 on # 0 of server xlarge COMPLETED
+t:    1253397 job   537 on # 0 of server xlarge RUNNING
+t:    1253413 job   537 on # 0 of server xlarge COMPLETED
+t:    1253413 job   538 on # 0 of server xlarge RUNNING
+t:    1253502 job   538 on # 0 of server xlarge COMPLETED
+t:    1253502 job   539 on # 0 of server xlarge RUNNING
+t:    1253867 job   539 on # 0 of server xlarge COMPLETED
+t:    1253867 job   540 on # 0 of server xlarge RUNNING
+t:    1254719 job   540 on # 0 of server xlarge COMPLETED
+t:    1254719 job   541 on # 0 of server xlarge RUNNING
+t:    1254891 job   541 on # 0 of server xlarge COMPLETED
+t:    1254891 job   542 on # 0 of server xlarge RUNNING
+t:    1254891 job   543 on # 0 of server xlarge RUNNING
+t:    1254893 job   542 on # 0 of server xlarge COMPLETED
+t:    1254893 job   544 on # 0 of server xlarge RUNNING
+t:    1254914 job   544 on # 0 of server xlarge COMPLETED
+t:    1255066 job   543 on # 0 of server xlarge COMPLETED
+t:    1255066 job   545 on # 0 of server xlarge RUNNING
+t:    1255081 job   545 on # 0 of server xlarge COMPLETED
+t:    1255081 job   546 on # 0 of server xlarge RUNNING
+t:    1255549 job   546 on # 0 of server xlarge COMPLETED
+t:    1255549 job   547 on # 0 of server xlarge RUNNING
+t:    1255648 job   547 on # 0 of server xlarge COMPLETED
+t:    1255648 job   548 on # 0 of server xlarge RUNNING
+t:    1255648 job   549 on # 0 of server xlarge RUNNING
+t:    1255654 job   549 on # 0 of server xlarge COMPLETED
+t:    1255671 job   548 on # 0 of server xlarge COMPLETED
+t:    1255671 job   550 on # 0 of server xlarge RUNNING
+t:    1256244 job   550 on # 0 of server xlarge COMPLETED
+t:    1256244 job   551 on # 0 of server xlarge RUNNING
+t:    1256244 job   552 on # 0 of server xlarge RUNNING
+t:    1279270 job   551 on # 0 of server xlarge COMPLETED
+t:    1292532 job   552 on # 0 of server xlarge COMPLETED
+t:    1292532 job   553 on # 0 of server xlarge RUNNING
+t:    1292640 job   553 on # 0 of server xlarge COMPLETED
+t:    1292640 job   554 on # 0 of server xlarge RUNNING
+t:    1292770 job   554 on # 0 of server xlarge COMPLETED
+t:    1292770 job   555 on # 0 of server xlarge RUNNING
+t:    1302361 job   555 on # 0 of server xlarge COMPLETED
+t:    1302361 job   556 on # 0 of server xlarge RUNNING
+t:    1302361 job   557 on # 0 of server xlarge RUNNING
+t:    1302397 job   556 on # 0 of server xlarge COMPLETED
+t:    1303068 job   557 on # 0 of server xlarge COMPLETED
+t:    1303068 job   558 on # 0 of server xlarge RUNNING
+t:    1303068 job   559 on # 0 of server xlarge RUNNING
+t:    1303154 job   558 on # 0 of server xlarge COMPLETED
+t:    1303154 job   560 on # 0 of server xlarge RUNNING
+t:    1303155 job   559 on # 0 of server xlarge COMPLETED
+t:    1303713 job   560 on # 0 of server xlarge COMPLETED
+t:    1303713 job   561 on # 0 of server xlarge RUNNING
+t:    1303802 job   561 on # 0 of server xlarge COMPLETED
+t:    1303802 job   562 on # 0 of server xlarge RUNNING
+t:    1303802 job   563 on # 0 of server xlarge RUNNING
+t:    1303814 job   563 on # 0 of server xlarge COMPLETED
+t:    1303814 job   564 on # 0 of server xlarge RUNNING
+t:    1303821 job   562 on # 0 of server xlarge COMPLETED
+t:    1303984 job   564 on # 0 of server xlarge COMPLETED
+t:    1303984 job   565 on # 0 of server xlarge RUNNING
+t:    1304066 job   565 on # 0 of server xlarge COMPLETED
+t:    1304066 job   566 on # 0 of server xlarge RUNNING
+t:    1304072 job   566 on # 0 of server xlarge COMPLETED
+t:    1304072 job   567 on # 0 of server xlarge RUNNING
+t:    1304072 job   568 on # 0 of server xlarge RUNNING
+t:    1304544 job   568 on # 0 of server xlarge COMPLETED
+t:    1304719 job   567 on # 0 of server xlarge COMPLETED
+t:    1304719 job   569 on # 0 of server xlarge RUNNING
+t:    1304719 job   570 on # 0 of server xlarge RUNNING
+t:    1304719 job   571 on # 0 of server xlarge RUNNING
+t:    1304732 job   571 on # 0 of server xlarge COMPLETED
+t:    1304732 job   572 on # 0 of server xlarge RUNNING
+t:    1304746 job   570 on # 0 of server xlarge COMPLETED
+t:    1304746 job   573 on # 0 of server xlarge RUNNING
+t:    1304747 job   572 on # 0 of server xlarge COMPLETED
+t:    1304864 job   569 on # 0 of server xlarge COMPLETED
+t:    1304864 job   574 on # 0 of server xlarge RUNNING
+t:    1304864 job   575 on # 0 of server xlarge RUNNING
+t:    1304887 job   573 on # 0 of server xlarge COMPLETED
+t:    1304888 job   575 on # 0 of server xlarge COMPLETED
+t:    1304913 job   574 on # 0 of server xlarge COMPLETED
+t:    1304913 job   576 on # 0 of server xlarge RUNNING
+t:    1305061 job   576 on # 0 of server xlarge COMPLETED
+t:    1305061 job   577 on # 0 of server xlarge RUNNING
+t:    1305066 job   577 on # 0 of server xlarge COMPLETED
+t:    1305066 job   578 on # 0 of server xlarge RUNNING
+t:    1305178 job   578 on # 0 of server xlarge COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 0 tiny servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 small servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 medium servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 large servers used with a utilisation of 0.00 at the cost of $0.00
+# 1 xlarge servers used with a utilisation of 100.00 at the cost of $580.03
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 1305178
+# total #servers used: 1, avg utilisation: 100.00 and total cost: $580.03
+# avg waiting time: 607250, avg exec time: 3202 and avg turnaround time: 610452

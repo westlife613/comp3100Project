@@ -1,0 +1,91 @@
+# ds-sim server 6-Mar, 2020 @ MQ
+# Server-side simulator started with './ds-server -c ./configs/ds-config1.xml -v brief'
+# Waiting for connection to port 50000 of IP address 127.0.0.1
+RCVD HELO
+SENT OK
+RCVD AUTH lius
+# Welcome  lius!
+# The system information can be read from 'system.xml'
+SENT OK
+RCVD REDY
+SENT JOBN 24 0 1566 1 200 1200
+RCVD SCHD 0 large 0
+t:         24 job     0 (waiting) on # 0 of server large (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 77 1 2025 1 600 700
+RCVD SCHD 1 large 0
+t:         77 job     1 (waiting) on # 0 of server large (booting) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 80 2 62 3 1900 2400
+RCVD SCHD 2 large 0
+t:         80 job     2 (waiting) on # 0 of server large (booting) SCHEDULED
+SENT OK
+RCVD REDY
+t:         84 job     0 on # 0 of server large RUNNING
+t:         84 job     1 on # 0 of server large RUNNING
+t:         84 job     2 on # 0 of server large RUNNING
+SENT JOBN 84 3 832 2 2100 1300
+RCVD SCHD 3 large 0
+t:         84 job     3 (running) on # 0 of server large (active) SCHEDULED
+t:         84 job     3 on # 0 of server large RUNNING
+SENT OK
+RCVD REDY
+SENT JOBN 124 4 2318 4 4300 2300
+RCVD SCHD 4 large 0
+t:        124 job     4 (waiting) on # 0 of server large (active) SCHEDULED
+SENT OK
+RCVD REDY
+t:        126 job     2 on # 0 of server large COMPLETED
+t:        126 job     4 on # 0 of server large RUNNING
+SENT JOBN 148 5 168 4 4100 6500
+RCVD SCHD 5 large 0
+t:        148 job     5 (waiting) on # 0 of server large (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 161 6 597 6 5800 11500
+RCVD SCHD 6 large 0
+t:        161 job     6 (waiting) on # 0 of server large (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 186 7 25 8 1900 11700
+RCVD SCHD 7 large 0
+t:        186 job     7 (waiting) on # 0 of server large (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 195 8 161754 2 1900 4100
+RCVD SCHD 8 large 0
+t:        195 job     8 (waiting) on # 0 of server large (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT JOBN 218 9 82 2 1400 1900
+RCVD SCHD 9 large 0
+t:        218 job     9 (waiting) on # 0 of server large (active) SCHEDULED
+SENT OK
+RCVD REDY
+SENT NONE
+RCVD QUIT
+t:        928 job     0 on # 0 of server large COMPLETED
+t:       1179 job     1 on # 0 of server large COMPLETED
+t:       1317 job     3 on # 0 of server large COMPLETED
+t:       1317 job     5 on # 0 of server large RUNNING
+t:       1437 job     4 on # 0 of server large COMPLETED
+t:       1557 job     5 on # 0 of server large COMPLETED
+t:       1557 job     6 on # 0 of server large RUNNING
+t:       2587 job     6 on # 0 of server large COMPLETED
+t:       2587 job     7 on # 0 of server large RUNNING
+t:       3323 job     7 on # 0 of server large COMPLETED
+t:       3323 job     8 on # 0 of server large RUNNING
+t:       3323 job     9 on # 0 of server large RUNNING
+t:       3482 job     9 on # 0 of server large COMPLETED
+t:      94617 job     8 on # 0 of server large COMPLETED
+SENT QUIT
+# ---------------------------------------------------------------------------
+# 0 small servers used with a utilisation of 0.00 at the cost of $0.00
+# 0 medium servers used with a utilisation of 0.00 at the cost of $0.00
+# 1 large servers used with a utilisation of 100.00 at the cost of $21.01
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 94617
+# total #servers used: 1, avg utilisation: 100.00 and total cost: $21.01
+# avg waiting time: 1024, avg exec time: 8907 and avg turnaround time: 9932
